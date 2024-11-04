@@ -53,14 +53,13 @@ Accuracy scores on the **MathHay** V1:
 ### Dataset Examples
 
 <p align="center">
-    <img src="assets/data_example.png" width="96%"> <br>
+    <img src="assets/data_example.png" width="70%"> <br>
   Examples of the single step single document tasks.
 </p>
 
 ## 🔮 Automatic Generation for MathHay
 
-### Requirements
-
+Run the following commands to install dependencies:
 ```sh
 pip install openai
 pip install pydantic
@@ -77,13 +76,14 @@ pip install boto3
 python -m spacy download en_core_web_sm
 ```
 
+Set up environment variables:
 ```sh
 export TAVILY_API_KEY=""
 export OPENAI_API_KEY=""
 export PYTHONPATH="."
 ```
 
-For generating MathHay, you can run the following command directly.
+To generate MathHay data, use:
 ```sh
 sh scripts/bench_generation.sh March-2024-to-September-2024 2 2 2
 ```
@@ -91,15 +91,7 @@ where assigned input arguments are time, number of topics, number of subtopics, 
 
 ## 🔮 Evaluations on MathVista
 
-### Requirements
-
-```sh
-pip install openai # for ChatGPT and GPT-4
-pip install anthropic # for Claude-2
-pip install bardapi # for Bard
-```
-
-For evaluating models on MathHay, you can run the following command directly.
+Run the evaluation command:
 ```sh
 sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 32000 middle full
 ```
