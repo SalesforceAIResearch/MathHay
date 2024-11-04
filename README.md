@@ -15,6 +15,12 @@ For more details, please refer to the project page: https://mathhay.github.io/.
 - **[2024.10.07]** Our paper is now accessible at https://arxiv.org/abs/2410.04698.
 
 
+### Overview of the automatic construction of MATHHAY:
+<p align="center">
+    <img src="assets/framework.png" width="80%"> <br>
+  Overview of the framework for the automatic construction of the <b>MATHHAY</b> Benchmark.
+</p>
+
 ### Compared to existing long-context benchmarks:
 
 | Benchmark            | Multi-Doc | Multi-Step | Avoid Contam. | Irrelevant Docs | Realistic Docs | Auto. Const. | Math. Reasoning |
