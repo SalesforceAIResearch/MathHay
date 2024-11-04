@@ -17,21 +17,21 @@ For more details, please refer to the project page: https://mathhay.github.io/.
 
 ### Compared to existing long-context benchmarks:
 
-| Benchmark                   | Multi-Doc Tasks | Multi-Step Reasoning | Avoidance of Contamination | Irrelevant Documents | Realistic Documents | Automated Construction | Mathematical Reasoning |
-|-----------------------------|-----------------|-----------------------|----------------------------|-----------------------|---------------------|------------------------|------------------------|
-| ZeroSCROLLS (Shaham et al., 2023)   | ✓               | ✓                     | ✗                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| L-Eval (Math) (An et al., 2023)     | ✓               | ✓                     | ✓                          | ✗                     | ✗                   | ✓                      | ✓                      |
-| LongBench (Bai et al., 2023)        | ✓               | ✓                     | ✓                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| BAMBOO (Dong et al., 2023)          | ✓               | ✗                     | ✓                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| InfiniteBench (Math) (Zhang et al., 2024) | ✓           | ✓                     | ✗                          | ✓                     | ✗                   | ✗                      | ✓                      |
-| Loong (Wang et al., 2024)           | ✓               | ✓                     | ✓                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| NIAH (Kamradt, 2023)                | ✗               | ✗                     | ✗                          | ✓                     | ✓                   | ✓                      | ✗                      |
-| RULER (Hsieh et al., 2024)          | ✓               | ✓                     | ✗                          | ✓                     | ✓                   | ✓                      | ✗                      |
-| FlenQA (Levy et al., 2024)          | ✗               | ✓                     | ✗                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| SummHay (Laban et al., 2024)        | ✓               | ✗                     | ✓                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| BABILong (Kuratov et al., 2024)     | ✓               | ✓                     | ✓                          | ✓                     | ✓                   | ✗                      | ✗                      |
-| NeedleBench (Li et al., 2024)       | ✓               | ✓                     | ✗                          | ✓                     | ✓                   | ✓                      | ✗                      |
-| **MathHay (Ours)**                  | ✓               | ✓                     | ✓                          | ✓                     | ✓                   | ✓                      | ✓                      |
+| Benchmark            | Multi-Doc | Multi-Step | Avoid Contam. | Irrelevant Docs | Realistic Docs | Auto. Const. | Math. Reasoning |
+|----------------------|-----------|------------|---------------|-----------------|----------------|--------------|-----------------|
+| ZeroSCROLLS          | ✓         | ✓          | ✗             | ✓               | ✓              | ✗            | ✗               |
+| L-Eval (Math)        | ✓         | ✓          | ✓             | ✗               | ✗              | ✓            | ✓               |
+| LongBench            | ✓         | ✓          | ✓             | ✓               | ✓              | ✗            | ✗               |
+| BAMBOO               | ✓         | ✗          | ✓             | ✓               | ✓              | ✗            | ✗               |
+| InfiniteBench (Math) | ✓         | ✓          | ✗             | ✓               | ✗              | ✗            | ✓               |
+| Loong                | ✓         | ✓          | ✓             | ✓               | ✓              | ✗            | ✗               |
+| NIAH                 | ✗         | ✗          | ✗             | ✓               | ✓              | ✓            | ✗               |
+| RULER                | ✓         | ✓          | ✗             | ✓               | ✓              | ✓            | ✗               |
+| FlenQA               | ✗         | ✓          | ✗             | ✓               | ✓              | ✗            | ✗               |
+| SummHay              | ✓         | ✗          | ✓             | ✓               | ✓              | ✗            | ✗               |
+| BABILong             | ✓         | ✓          | ✓             | ✓               | ✓              | ✗            | ✗               |
+| NeedleBench          | ✓         | ✓          | ✗             | ✓               | ✓              | ✓            | ✗               |
+| **MathHay (Ours)**   | ✓         | ✓          | ✓             | ✓               | ✓              | ✓            | ✓               |
 
 
 
