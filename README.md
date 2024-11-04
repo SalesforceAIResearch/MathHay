@@ -47,10 +47,63 @@ Accuracy scores on the **MathHay** V1:
 
 <p align="center">
     <img src="assets/results_v1.png" width="96%"> <br>
-  Performance of Selected Models on <b>MATHHAY</b> (32K to 128K tokens). The model with the best performance is highlighted in bold..
+  Performance of Selected Models on <b>MATHHAY</b> (32K to 128K tokens). The model with the best performance is highlighted in bold.
 </p>
 
+### Dataset Examples
+
+<p align="center">
+    <img src="assets/data_example.png" width="96%"> <br>
+  Examples of the single step single document tasks.
+</p>
+
+## 🔮 Automatic Generation for MathHay
+
+### Requirements
+
+```sh
+pip install openai
+pip install pydantic
+pip install tavily-python
+pip install spacy
+pip install pandas
+pip install langchain
+pip install langchain-core
+pip install nltk
+pip install tiktoken
+pip install google
+pip install boto3
+
 python -m spacy download en_core_web_sm
+```
+
+```sh
+export TAVILY_API_KEY=""
+export OPENAI_API_KEY=""
+export PYTHONPATH="."
+```
+
+For generating MathHay, you can run the following command directly.
+```sh
+sh scripts/bench_generation.sh March-2024-to-September-2024 2 2 2
+```
+where assigned input arguments are time, number of topics, number of subtopics, and number of queries.
+
+## 🔮 Evaluations on MathVista
+
+### Requirements
+
+```sh
+pip install openai # for ChatGPT and GPT-4
+pip install anthropic # for Claude-2
+pip install bardapi # for Bard
+```
+
+For evaluating models on MathHay, you can run the following command directly.
+```sh
+sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 32000 middle full
+```
+where assigned input arguments are time, task type, models to be evaluated, input length, placement, and dataset choice.
 
 
 ## Citation
