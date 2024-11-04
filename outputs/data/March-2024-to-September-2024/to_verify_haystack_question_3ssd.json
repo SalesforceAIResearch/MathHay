@@ -1,0 +1,257 @@
+[
+  {
+    "Topic": "Financial Market Analysis",
+    "Subtopic": "Trends in Stock Prices",
+    "Query": "What was the overall percentage change in Nvidia's stock price from May 2024 to August 2024, and how did its volatility compare to Tesla's over the same period?",
+    "Document_ID": [
+      "Doc_1"
+    ],
+    "Documents": [
+      "\n\nTSLA has been successfully added to your Stock Email Alerts list.\nYou can manage your stock email alerts here.\n\n\nTSLA has been removed from your Stock Email Alerts list.\n\nPlease enter Portfolio Name for new portfolio.\n\n\t\n\t\tTesla  (TSLA)   Volatility\t\t: 53.17%  (As of Oct. 29, 2024)\n\nWhat is Tesla Volatility?\nVolatility is a statistical measure of the dispersion of returns for a given security or market index, it shows how the price swings around its mean. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year. In most cases, the higher the volatility, the riskier the security.\nAs of today (2024-10-29), Tesla's Volatility is 53.17%.\nCompetitive Comparison of Tesla's  Volatility\nFor the Auto Manufacturers subindustry, Tesla's Volatility, along with its competitors' market caps and Volatility data, can be viewed below:\n* Competitive companies are chosen from companies within the same industry, with headquarter located in same country, with closest market capitalization; x-axis shows the market cap, and y-axis shows the term value; the bigger the dot, the larger the market cap. Note that \"N/A\" values will not show up in the chart.\nTesla's  Volatility Distribution in the Vehicles & Parts Industry\nFor the Vehicles & Parts industry and Consumer Cyclical sector, Tesla's Volatility distribution charts can be found below:\n* The bar in red indicates where Tesla's Volatility falls into.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Calculation\nThe annualized volatility is calculated as following:\nWhere: \u03c3M is the monthly volatility, n is the number of months in the period, Ri is the security's historical monthly returns and R' is the arithmetic mean of monthly returns.\n* For Operating Data section: All numbers are indicated by the unit behind each term and all currency related amount are in USD. * For other sections: All numbers are in millions except for per share data, ratio, and percentage. All currency related amount are indicated in the company's associated stock exchange currency.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Explanation\nVolatility is a statistical measure of the dispersion of returns for a given security or market index. It\u2019s often measured as standard deviation or variance of historical returns over a certain period. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year.\nVolatility reflects the uncertainty or risk of a security\u2019s value. Generally speaking, a higher volatility suggests a higher risk, because it implies a wider fluctuation around average price. This means the price of the security can change dramatically in either direction within a short period. Conversely, a lower volatility means that the security's price is more steady, which suggests a lower risk.\nAnother measurement of relative volatility is Beta. Beta is a measure of systematic risk of a security or a portfolio in comparison to the market as a whole. Beta is usually compared to 1. A beta of greater than 1 indicates that the security's price will be more volatile than the market.\nTesla Volatility Related Terms\nThank you for viewing the detailed overview of Tesla's Volatility provided by GuruFocus.com. Please click on the following links to see related term pages.\nTesla Business Description\nTesla Headlines\nFrom GuruFocus\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-19-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Mujahid Sadiq \n \u2022 \n08-21-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Marketwired \n \u2022 \n08-06-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-04-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n07-29-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-11-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy PRNewswire \n \u2022 \n08-18-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-10-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n08-30-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-02-2024\n\n\n                    Disclaimers:  GuruFocus.com is not operated by a broker or a dealer. It has an affiliated registered investment adviser, which serves as the subadviser to an exchange traded fund. This investment adviser does not provide advice to individual investors. Under no circumstances does any information posted on GuruFocus.com represent a recommendation to buy or sell a security. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The individuals or entities selected as \"gurus\" may buy and sell securities before and after any particular article and report and information herein is published, with respect to the securities discussed in any article and report posted herein. Gurus may be added or dropped from the GuruFocus site at any time. In no event shall GuruFocus.com be liable to any member, guest or third party for any damages of any kind arising out of the use of any content or other material published or available on GuruFocus.com, or relating to the use of, or inability to use, GuruFocus.com or any content, including, without limitation, any investment losses, lost profits, lost opportunity, special, incidental, indirect, consequential or punitive damages. Past performance is a poor indicator of future performance. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The information on this site is in no way guaranteed for completeness, accuracy or in any other way. The gurus listed in this website are not affiliated with GuruFocus.com, LLC. Stock quotes provided by InterActive Data. Fundamental company data provided by Morningstar, updated daily.\n                \n"
+    ],
+    "task_type": "3ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Article by Mujahid Sadiq",
+          "numerical_value": 1.0,
+          "date": "2024-08-21",
+          "location": "N/A",
+          "context": "Number of articles published by Mujahid Sadiq in August 2024"
+        },
+        {
+          "object": "Article by Marketwired",
+          "numerical_value": 1.0,
+          "date": "2024-08-06",
+          "location": "N/A",
+          "context": "Number of articles published by Marketwired in August 2024"
+        },
+        {
+          "object": "Article by PRNewswire",
+          "numerical_value": 1.0,
+          "date": "2024-08-18",
+          "location": "N/A",
+          "context": "Number of articles published by PRNewswire in August 2024"
+        }
+      ],
+      "question": "In August 2024, three different authors published articles. If we add the number of articles by Mujahid Sadiq and Marketwired, then subtract the number of articles by PRNewswire, and finally multiply the result by 2, what is the final value?",
+      "solution": "def solve():\n    # Extracted numerical values from the document\n    articles_mujahid_aug_2024 = 1  # Articles by Mujahid Sadiq in August 2024\n    articles_marketwired_aug_2024 = 1  # Articles by Marketwired in August 2024\n    articles_prnews_aug_2024 = 1  # Articles by PRNewswire in August 2024\n\n    # Step 1: Add the number of articles by Mujahid Sadiq and Marketwired\n    intermediate_result = articles_mujahid_aug_2024 + articles_marketwired_aug_2024\n\n    # Step 2: Subtract the number of articles by PRNewswire\n    intermediate_result = intermediate_result - articles_prnews_aug_2024\n\n    # Step 3: Multiply the result by 2\n    answer = intermediate_result * 2\n\n    return answer",
+      "steps": 3,
+      "answer": 2
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      10,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Financial Market Analysis",
+    "Subtopic": "Trends in Stock Prices",
+    "Query": "What was the overall percentage change in Nvidia's stock price from May 2024 to August 2024, and how did its volatility compare to Tesla's over the same period?",
+    "Document_ID": [
+      "Doc_2"
+    ],
+    "Documents": [
+      "We use cookies to understand how you use our site and to improve your experience. This includes personalizing content and advertising. To learn more, click here. By continuing to use our site, you accept our use of cookies, revised Privacy Policy and Terms of Service.\nInvestor Services\nOther Services\nTrading Services\nInnovators\nNew to Zacks? Get started here.\nMember Sign In\nDon't Know Your Password?\n\nMember Sign In\nDon't Know Your Password?\n\n\nServices Overview\n\n\nInvestor Services\n\n\nOther Services\n\n\nTrading Services\n\n\nInnovators\n\nYou are being directed to ZacksTrade, a division of LBMZ Securities and licensed broker-dealer. ZacksTrade and Zacks.com are separate companies. The web link between the two companies is not a solicitation or offer to invest in a particular security or type of security. ZacksTrade does not endorse or adopt any particular investment strategy, any analyst opinion/rating/report or any approach to evaluating individual securities.\nIf you wish to go to ZacksTrade, click OK. If you do not, click Cancel.\nOK Cancel\nImage: Bigstock\nWill Tesla's Stock Ride Higher as Markets Stabilize?\nShaun Pruitt\nAugust 08, 2024\n\nTSLA Quick QuoteTSLA \n\n\n\nBetter trading starts here.\n\n\n\nYou follow Investment Ideas - edit\n\n\nYou follow Shaun Pruitt - edit\n\n\n\nShaun Pruitt\n\n\n\nInvestment Ideas\n\nRecently falling to under $200 a share, Tesla\u2019s (TSLA Quick QuoteTSLA  -  Free Report)    \u00a0stock has dropped -20% over the last month after previously edging towards its 52-week high of $278.98 seen last September.\nTesla\u2019s stock had started to post a masterful rebound before its underwhelming Q2 report in July and the selloff afterward was extended by recent market volatility. \nInvestors may be wondering if Tesla's stock can get back to its recovery as the broader indexes stabilize. To that point, TSLA is still up +14% in the last three months to outperform the S&P 500\u2019s +1% and the Nasdaq\u2019s +2%.\nImage Source: Zacks Investment Research\nRecent Performance Overview\nTesla\u2019s stock has stayed in correction territory following its Q2 earnings of $0.52 a share which decreased -43% from EPS of $0.91 in the comparative quarter. This also missed Q2 EPS estimates of $0.62 by -16%.\nQuarterly sales did reach a record of $25.5 billion which was a 2% increase from $24.92 billion in Q2 2023 and beat expectations by 1%. Price cuts to its EV fleet led to lower margins with CEO Elon Musk stating an increasing number of competitors have entered the market and offered substantial discounts in an attempt to undercut Tesla.\nThe auto giant does see this as a short-term headwind with annual earnings now expected to decline -26% this year but projected to rebound and climb 36% in fiscal 2025 to $3.14 per share.\u00a0\u00a0\nImage Source: Zacks Investment Research\nThe Technical Tape & Valuation\nUnderlying the recent bearish move in Tesla\u2019s stock is that TSLA moved below its 50-day\u00a0simple moving average (SMA) of $209 and continued to fall after dipping beneath its\u00a0200-day\u00a0SMA of $201. Traders will certainly want to see TSLA retake these levels.\nImage Source: Zacks Investment Research\nHowever, the correction has helped to normalize Tesla\u2019s valuation with TSLA trading at 87.1X forward earnings which is 38% below its two-year high of 141.2X and closer to the median of 76.7X during this period.\nImage Source: Zacks Investment Research\nBottom Line\nTesla\u2019s stock currently lands a Zacks Rank #3 (Hold). The EV pioneer's long-term outlook is still attractive but TSLA remains in correction territory and there could be better buying opportunities ahead. That said, the leveling of Tesla\u2019s valuation should start to attract more investors.\nSee More Zacks Research for These Tickers\nNormally $25 each - click below to receive one report FREE:\nTesla, Inc. (TSLA) - free report >>\nPublished in\nAre These Stocks Among Zacks'\r\n7 Best Strong Buy Stocks for November?\nOur experts picked 7 Zacks Rank #1 Strong Buy stocks with the best chance to skyrocket within the next 30-90 days.\nRecent stocks from this report have soared up to +67.5% within 30 days - this month's picks could be even better. See our report's fresh new picks today - it's really free!\nPrivacy Policy  |  No cost, no obligation to buy anything ever.\r\nPast performance is no guarantee of future results.\nUp Next\nEli Lilly: The Next $1 Trillion Market Cap Stock?\nMost Read\nHow to Play Mag 7 Earnings\nPFP 10/29: Stocks Closed Higher Yesterday, Led by the Small-Caps\n5 Reasons to Be Bullish Stocks in Q4\nTop Stock Picks for Week of October 28, 2024\nEarnings Charts of the Big 5: GOOGL, MSFT, META, AAPL and AMZN\nQuick Links\nServices\nMy Account\nResources\nClient Support\nFollow Us\nZacks Mobile App\nZacks Research is Reported On:\nThis page has not been authorized, sponsored, or otherwise approved or endorsed by the companies represented herein. Each of the company logos represented herein are trademarks of Microsoft Corporation; Dow Jones & Company; Nasdaq, Inc.; Forbes Media, LLC; Investor's Business Daily, Inc.; and Morningstar, Inc.\nCopyright 2024 Zacks Investment Research | 10 S Riverside Plaza Suite #1600 | Chicago, IL 60606\nAt the center of everything we do is a strong commitment to independent research and sharing its profitable discoveries with investors. This dedication to giving investors a trading advantage led to the creation of our proven Zacks Rank stock-rating system. Since 1988 it has more than doubled the S&P 500 with an average gain of +24.10%  per year. These returns cover a period from January 1, 1988 through October 7, 2024. Zacks Rank stock-rating system returns are computed monthly based on the beginning of the month and end of the month Zacks Rank stock prices plus any dividends received during that particular month. A simple, equally-weighted average return of all Zacks Rank stocks is calculated to determine the monthly return. The monthly returns are then compounded to arrive at the annual return. Only Zacks Rank stocks included in Zacks hypothetical portfolios at the beginning of each month are included in the return calculations. Zacks Ranks stocks can, and often do, change throughout the month. Certain Zacks Rank stocks for which no month-end price was available, pricing information was not collected, or for certain other reasons have been excluded from these return calculations. Zacks may license the Zacks Mutual Fund rating provided herein to third parties, including but not limited to the issuer.\nVisit Performance Disclosure for information about the performance numbers displayed above.\nVisit www.zacksdata.com to get our data and content for your mobile app or website.\nReal time prices by BATS. Delayed quotes by Sungard.\nNYSE and AMEX data is at least 20 minutes delayed. NASDAQ data is at least 15 minutes delayed.\nThis site is protected by reCAPTCHA and the Google Privacy Policy, DMCA Policy and Terms of Service apply.\n\n                Due to inactivity, you will besigned out in approximately:  \n            \n"
+    ],
+    "task_type": "3ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Tesla's stock",
+          "numerical_value": 278.98,
+          "date": "September 2023",
+          "location": "Nasdaq",
+          "context": "52-week high"
+        },
+        {
+          "object": "Tesla's stock",
+          "numerical_value": 200.0,
+          "date": "August 2024",
+          "location": "Nasdaq",
+          "context": "Recent stock price"
+        }
+      ],
+      "question": "If an investor held 100 shares of Tesla stock when it was at its 52-week high of $278.98 in September 2023, and sold them all at the recent price of $200 in August 2024, what is the total difference in value from the 52-week high?",
+      "solution": "def solve():\n    # Extracted numerical values\n    high_price = 278.98  # Tesla's stock 52-week high price\n    recent_price = 200  # Tesla's stock price in August 2024\n    shares = 100  # Total shares held\n\n    # Step 1: Calculate the total value at the 52-week high\n    value_at_high = shares * high_price\n\n    # Step 2: Calculate the total value at the recent price\n    value_at_recent = shares * recent_price\n\n    # Step 3: Calculate the difference in value\n    answer = value_at_high - value_at_recent\n\n    return answer",
+      "steps": 3,
+      "answer": 7898.0
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      16,
+      1,
+      10,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Sports Performance Analytics",
+    "Subtopic": "Player Performance Metrics",
+    "Query": "How did Lionel Messi's goal-scoring efficiency change from March 2024 to September 2024, and how does it compare to Cristiano Ronaldo's over the same period?",
+    "Document_ID": [
+      "Doc_10"
+    ],
+    "Documents": [
+      "Cristiano Ronaldo\nCristiano Ronaldo dos Santos Aveiro\nPosition: FW-MF (WM)\u00a0\u25aa\u00a0 Footed: Right\n187cm,\u00a083kg\u00a0(6-1\u00bd,\u00a0183lb)\nBorn:\nFebruary 5, 1985\nin Funchal, Portugal\npt\nNational Team:\u00a0Portugal pt\nClub: Al Nasr (KSA)\nTwitter:\n@Cristiano\nInstagram:\n@cristiano\nPro League\n13\n1164\n15\n7\n* see our coverage note\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nAl-Nassr(11-1-2, 2nd place in Saudi Professional League)\nRoster\nShow entire roster\nPortugal\nRoster\nShow entire roster\nOn this page:\nLast 5 Matches\nNext Match:\nFriday December 01, 2023 vs\nAl-Hilal\nMore:\nMatch Logs\n\u2022\nGoal Logs\nCompare Cristiano Ronaldo to\nPlayer News\nStandard Stats: Domestic Leagues\nShooting: Domestic Leagues\nPassing: Domestic Leagues\nPass Types: Domestic Leagues\nGoal and Shot Creation: Domestic Leagues\nDefensive Actions: Domestic Leagues\nPossession: Domestic Leagues\nPlaying Time: Domestic Leagues\nMiscellaneous Stats: Domestic Leagues\nPlayer Club Summary\nLeaderboard Appearances, Awards, and Honors\nWages\nAdditional Resources\nAbout FBref.com\nFBref.com launched (June 13, 2018) with domestic league coverage for England, France, Germany, Italy, Spain, and United States. Since then we have been steadily expanding our coverage to include domestic leagues from over 40 countries as well as domestic cup, super cup and youth leagues from top European countries. We have also added coverage for major international cups such as the UEFA Champions League and Copa Libertadores.\nFBref is the most complete sources for women's football data on the internet. This includes the entire history of the FIFA Women's World Cup as well as recent domestic league seasons from nine countries, including advanced stats like xG for most of those nine.\nIn collaboration with Opta, we are including advanced analytical data such as xG, xA, progressive passing, duels and more for over twenty competitions. For more information on the expected goals model and which competitions have advanced data, see our xG explainer.\nNote that player records are likely not complete for their careers. Players may come from or move to leagues we don't currently cover. This issue will go down over time, as we add new leagues and seasons. We will never in the future have less data than we do today.\nYou can sign up to receive an e-mail when new countries and features launch.\nFor more information, see our Launch Blog Post, the overall leagues/competition page with details on leagues and seasons we include, or our About Page.\nLet us know if you find an issue or have a suggestion.\nFBref is one of seven Sports-Reference.com sites.\nMore Cristiano Ronaldo Pages\nCristiano Ronaldo Overview\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nFull Site Menu\nWe're Social...for Statheads\nEvery Sports Reference Social Media Account\nSite Last Updated: Sunday, November 26, 10:47PM\nQuestion, Comment, Feedback, or Correction?\nSubscribe to our Free Email Newsletter\nDo you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.\nFind out more.\nFAQs, Tip & Tricks\nAll logos are the trademark & property of their owners and not Sports Reference LLC.\nWe present them here for purely educational purposes.\nOur reasoning for presenting offensive logos.\nLogos were compiled by the amazing SportsLogos.net.\nCopyright \u00a9 2000-2023 Sports Reference LLC. All rights reserved.\nThe SPORTS REFERENCE and STATHEAD trademarks are owned exclusively by Sports Reference LLC. Use without license or authorization is expressly prohibited."
+    ],
+    "task_type": "3ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Cristiano Ronaldo's height",
+          "numerical_value": 187.0,
+          "date": "N/A",
+          "location": "N/A",
+          "context": "Height in cm"
+        },
+        {
+          "object": "Cristiano Ronaldo's weight",
+          "numerical_value": 83.0,
+          "date": "N/A",
+          "location": "N/A",
+          "context": "Weight in kg"
+        },
+        {
+          "object": "Cristiano Ronaldo's club goals in 2023",
+          "numerical_value": 15.0,
+          "date": "2023",
+          "location": "Saudi Professional League",
+          "context": "Goals scored by Ronaldo for Al Nasr"
+        },
+        {
+          "object": "Cristiano Ronaldo's appearances in 2023",
+          "numerical_value": 13.0,
+          "date": "2023",
+          "location": "Saudi Professional League",
+          "context": "Matches played by Ronaldo for Al Nasr"
+        }
+      ],
+      "question": "What is the result of multiplying Cristiano Ronaldo's average goals per appearance in the 2023 Saudi Professional League by his weight in kg, and then adding his height in cm?",
+      "solution": "def solve():\n    # Ronaldo's goals in 2023\n    goals = 15\n    # Ronaldo's appearances in 2023\n    appearances = 13\n    # Ronaldo's weight in kg\n    weight = 83\n    # Ronaldo's height in cm\n    height = 187\n    \n    # Step 1: Calculate average goals per appearance\n    avg_goals_per_appearance = goals / appearances\n    \n    # Step 2: Multiply average goals per appearance by his weight\n    result = avg_goals_per_appearance * weight\n    \n    # Step 3: Add Ronaldo's height\n    answer = result + height\n    \n    return answer",
+      "steps": 3,
+      "answer": 282.7692307692308
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      1,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Sports Performance Analytics",
+    "Subtopic": "Player Performance Metrics",
+    "Query": "How did Lionel Messi's goal-scoring efficiency change from March 2024 to September 2024, and how does it compare to Cristiano Ronaldo's over the same period?",
+    "Document_ID": [
+      "Doc_10"
+    ],
+    "Documents": [
+      "Cristiano Ronaldo\nCristiano Ronaldo dos Santos Aveiro\nPosition: FW-MF (WM)\u00a0\u25aa\u00a0 Footed: Right\n187cm,\u00a083kg\u00a0(6-1\u00bd,\u00a0183lb)\nBorn:\nFebruary 5, 1985\nin Funchal, Portugal\npt\nNational Team:\u00a0Portugal pt\nClub: Al Nasr (KSA)\nTwitter:\n@Cristiano\nInstagram:\n@cristiano\nPro League\n13\n1164\n15\n7\n* see our coverage note\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nAl-Nassr(11-1-2, 2nd place in Saudi Professional League)\nRoster\nShow entire roster\nPortugal\nRoster\nShow entire roster\nOn this page:\nLast 5 Matches\nNext Match:\nFriday December 01, 2023 vs\nAl-Hilal\nMore:\nMatch Logs\n\u2022\nGoal Logs\nCompare Cristiano Ronaldo to\nPlayer News\nStandard Stats: Domestic Leagues\nShooting: Domestic Leagues\nPassing: Domestic Leagues\nPass Types: Domestic Leagues\nGoal and Shot Creation: Domestic Leagues\nDefensive Actions: Domestic Leagues\nPossession: Domestic Leagues\nPlaying Time: Domestic Leagues\nMiscellaneous Stats: Domestic Leagues\nPlayer Club Summary\nLeaderboard Appearances, Awards, and Honors\nWages\nAdditional Resources\nAbout FBref.com\nFBref.com launched (June 13, 2018) with domestic league coverage for England, France, Germany, Italy, Spain, and United States. Since then we have been steadily expanding our coverage to include domestic leagues from over 40 countries as well as domestic cup, super cup and youth leagues from top European countries. We have also added coverage for major international cups such as the UEFA Champions League and Copa Libertadores.\nFBref is the most complete sources for women's football data on the internet. This includes the entire history of the FIFA Women's World Cup as well as recent domestic league seasons from nine countries, including advanced stats like xG for most of those nine.\nIn collaboration with Opta, we are including advanced analytical data such as xG, xA, progressive passing, duels and more for over twenty competitions. For more information on the expected goals model and which competitions have advanced data, see our xG explainer.\nNote that player records are likely not complete for their careers. Players may come from or move to leagues we don't currently cover. This issue will go down over time, as we add new leagues and seasons. We will never in the future have less data than we do today.\nYou can sign up to receive an e-mail when new countries and features launch.\nFor more information, see our Launch Blog Post, the overall leagues/competition page with details on leagues and seasons we include, or our About Page.\nLet us know if you find an issue or have a suggestion.\nFBref is one of seven Sports-Reference.com sites.\nMore Cristiano Ronaldo Pages\nCristiano Ronaldo Overview\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nFull Site Menu\nWe're Social...for Statheads\nEvery Sports Reference Social Media Account\nSite Last Updated: Sunday, November 26, 10:47PM\nQuestion, Comment, Feedback, or Correction?\nSubscribe to our Free Email Newsletter\nDo you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.\nFind out more.\nFAQs, Tip & Tricks\nAll logos are the trademark & property of their owners and not Sports Reference LLC.\nWe present them here for purely educational purposes.\nOur reasoning for presenting offensive logos.\nLogos were compiled by the amazing SportsLogos.net.\nCopyright \u00a9 2000-2023 Sports Reference LLC. All rights reserved.\nThe SPORTS REFERENCE and STATHEAD trademarks are owned exclusively by Sports Reference LLC. Use without license or authorization is expressly prohibited."
+    ],
+    "task_type": "3ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Cristiano Ronaldo's height",
+          "numerical_value": 187.0,
+          "date": "N/A",
+          "location": "N/A",
+          "context": "Height in cm"
+        },
+        {
+          "object": "Cristiano Ronaldo's weight",
+          "numerical_value": 83.0,
+          "date": "N/A",
+          "location": "N/A",
+          "context": "Weight in kg"
+        },
+        {
+          "object": "Cristiano Ronaldo's club goals in 2023",
+          "numerical_value": 15.0,
+          "date": "2023",
+          "location": "Saudi Professional League",
+          "context": "Goals scored by Ronaldo for Al Nasr"
+        },
+        {
+          "object": "Cristiano Ronaldo's appearances in 2023",
+          "numerical_value": 13.0,
+          "date": "2023",
+          "location": "Saudi Professional League",
+          "context": "Matches played by Ronaldo for Al Nasr"
+        }
+      ],
+      "question": "What is the result of adding Cristiano Ronaldo's height in cm to the difference between his club goals and appearances in the Saudi Professional League in 2023, and then subtracting his weight in kg?",
+      "solution": "def solve():\n    # Ronaldo's height in cm\n    height = 187\n    # Ronaldo's weight in kg\n    weight = 83\n    # Ronaldo's club goals in 2023\n    goals = 15\n    # Ronaldo's appearances in 2023\n    appearances = 13\n\n    # Step 1: Calculate the difference between goals and appearances\n    difference = goals - appearances\n\n    # Step 2: Add Ronaldo's height to the difference\n    sum_value = height + difference\n\n    # Step 3: Subtract Ronaldo's weight from the sum\n    answer = sum_value - weight\n\n    return answer",
+      "steps": 3,
+      "answer": 106
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      1,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  }
+]

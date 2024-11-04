@@ -1,0 +1,11 @@
+openai
+pydantic
+tavily-python
+spacy
+pandas
+langchain
+langchain-core
+nltk
+tiktoken
+google
+boto3

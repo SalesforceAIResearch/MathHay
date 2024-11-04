@@ -1,0 +1,229 @@
+[
+  {
+    "Topic": "Financial Market Analysis",
+    "Subtopic": "Trends in Stock Prices",
+    "Query": "What was the overall percentage change in Nvidia's stock price from May 2024 to August 2024, and how did its volatility compare to Tesla's over the same period?",
+    "Document_ID": [
+      "Doc_1"
+    ],
+    "Documents": [
+      "\n\nTSLA has been successfully added to your Stock Email Alerts list.\nYou can manage your stock email alerts here.\n\n\nTSLA has been removed from your Stock Email Alerts list.\n\nPlease enter Portfolio Name for new portfolio.\n\n\t\n\t\tTesla  (TSLA)   Volatility\t\t: 53.17%  (As of Oct. 29, 2024)\n\nWhat is Tesla Volatility?\nVolatility is a statistical measure of the dispersion of returns for a given security or market index, it shows how the price swings around its mean. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year. In most cases, the higher the volatility, the riskier the security.\nAs of today (2024-10-29), Tesla's Volatility is 53.17%.\nCompetitive Comparison of Tesla's  Volatility\nFor the Auto Manufacturers subindustry, Tesla's Volatility, along with its competitors' market caps and Volatility data, can be viewed below:\n* Competitive companies are chosen from companies within the same industry, with headquarter located in same country, with closest market capitalization; x-axis shows the market cap, and y-axis shows the term value; the bigger the dot, the larger the market cap. Note that \"N/A\" values will not show up in the chart.\nTesla's  Volatility Distribution in the Vehicles & Parts Industry\nFor the Vehicles & Parts industry and Consumer Cyclical sector, Tesla's Volatility distribution charts can be found below:\n* The bar in red indicates where Tesla's Volatility falls into.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Calculation\nThe annualized volatility is calculated as following:\nWhere: \u03c3M is the monthly volatility, n is the number of months in the period, Ri is the security's historical monthly returns and R' is the arithmetic mean of monthly returns.\n* For Operating Data section: All numbers are indicated by the unit behind each term and all currency related amount are in USD. * For other sections: All numbers are in millions except for per share data, ratio, and percentage. All currency related amount are indicated in the company's associated stock exchange currency.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Explanation\nVolatility is a statistical measure of the dispersion of returns for a given security or market index. It\u2019s often measured as standard deviation or variance of historical returns over a certain period. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year.\nVolatility reflects the uncertainty or risk of a security\u2019s value. Generally speaking, a higher volatility suggests a higher risk, because it implies a wider fluctuation around average price. This means the price of the security can change dramatically in either direction within a short period. Conversely, a lower volatility means that the security's price is more steady, which suggests a lower risk.\nAnother measurement of relative volatility is Beta. Beta is a measure of systematic risk of a security or a portfolio in comparison to the market as a whole. Beta is usually compared to 1. A beta of greater than 1 indicates that the security's price will be more volatile than the market.\nTesla Volatility Related Terms\nThank you for viewing the detailed overview of Tesla's Volatility provided by GuruFocus.com. Please click on the following links to see related term pages.\nTesla Business Description\nTesla Headlines\nFrom GuruFocus\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-19-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Mujahid Sadiq \n \u2022 \n08-21-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Marketwired \n \u2022 \n08-06-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-04-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n07-29-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-11-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy PRNewswire \n \u2022 \n08-18-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-10-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n08-30-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-02-2024\n\n\n                    Disclaimers:  GuruFocus.com is not operated by a broker or a dealer. It has an affiliated registered investment adviser, which serves as the subadviser to an exchange traded fund. This investment adviser does not provide advice to individual investors. Under no circumstances does any information posted on GuruFocus.com represent a recommendation to buy or sell a security. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The individuals or entities selected as \"gurus\" may buy and sell securities before and after any particular article and report and information herein is published, with respect to the securities discussed in any article and report posted herein. Gurus may be added or dropped from the GuruFocus site at any time. In no event shall GuruFocus.com be liable to any member, guest or third party for any damages of any kind arising out of the use of any content or other material published or available on GuruFocus.com, or relating to the use of, or inability to use, GuruFocus.com or any content, including, without limitation, any investment losses, lost profits, lost opportunity, special, incidental, indirect, consequential or punitive damages. Past performance is a poor indicator of future performance. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The information on this site is in no way guaranteed for completeness, accuracy or in any other way. The gurus listed in this website are not affiliated with GuruFocus.com, LLC. Stock quotes provided by InterActive Data. Fundamental company data provided by Morningstar, updated daily.\n                \n"
+    ],
+    "task_type": "2ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Tesla Volatility",
+          "numerical_value": 53.17,
+          "date": "2024-10-29",
+          "location": "",
+          "context": "Annualized volatility as of October 29, 2024"
+        },
+        {
+          "object": "Tesla Article Date",
+          "numerical_value": 19.0,
+          "date": "2024-09-19",
+          "location": "",
+          "context": "Date of the article published by GuruFocus Research"
+        }
+      ],
+      "question": "What is the result of subtracting the day of the month when the article was published on September 19, 2024, from Tesla's annualized volatility on October 29, 2024, and then dividing by 2?",
+      "solution": "def solve():\n    # Extracted numerical values from the document\n    tesla_volatility = 53.17  # Tesla's annualized volatility as of October 29, 2024\n    article_day = 19  # Day of the month when the article was published on September 19, 2024\n\n    # Step 1: Perform the first arithmetic operation\n    intermediate_result = tesla_volatility - article_day  # Subtract the day of the month from the volatility\n\n    # Step 2: Use the result from step 1 in the second operation\n    answer = intermediate_result / 2  # Divide by 2\n\n    return answer",
+      "steps": 2,
+      "answer": 17.085
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      10,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Financial Market Analysis",
+    "Subtopic": "Trends in Stock Prices",
+    "Query": "What was the overall percentage change in Nvidia's stock price from May 2024 to August 2024, and how did its volatility compare to Tesla's over the same period?",
+    "Document_ID": [
+      "Doc_1"
+    ],
+    "Documents": [
+      "\n\nTSLA has been successfully added to your Stock Email Alerts list.\nYou can manage your stock email alerts here.\n\n\nTSLA has been removed from your Stock Email Alerts list.\n\nPlease enter Portfolio Name for new portfolio.\n\n\t\n\t\tTesla  (TSLA)   Volatility\t\t: 53.17%  (As of Oct. 29, 2024)\n\nWhat is Tesla Volatility?\nVolatility is a statistical measure of the dispersion of returns for a given security or market index, it shows how the price swings around its mean. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year. In most cases, the higher the volatility, the riskier the security.\nAs of today (2024-10-29), Tesla's Volatility is 53.17%.\nCompetitive Comparison of Tesla's  Volatility\nFor the Auto Manufacturers subindustry, Tesla's Volatility, along with its competitors' market caps and Volatility data, can be viewed below:\n* Competitive companies are chosen from companies within the same industry, with headquarter located in same country, with closest market capitalization; x-axis shows the market cap, and y-axis shows the term value; the bigger the dot, the larger the market cap. Note that \"N/A\" values will not show up in the chart.\nTesla's  Volatility Distribution in the Vehicles & Parts Industry\nFor the Vehicles & Parts industry and Consumer Cyclical sector, Tesla's Volatility distribution charts can be found below:\n* The bar in red indicates where Tesla's Volatility falls into.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Calculation\nThe annualized volatility is calculated as following:\nWhere: \u03c3M is the monthly volatility, n is the number of months in the period, Ri is the security's historical monthly returns and R' is the arithmetic mean of monthly returns.\n* For Operating Data section: All numbers are indicated by the unit behind each term and all currency related amount are in USD. * For other sections: All numbers are in millions except for per share data, ratio, and percentage. All currency related amount are indicated in the company's associated stock exchange currency.\nTesla\u00a0\u00a0(NAS:TSLA)   Volatility Explanation\nVolatility is a statistical measure of the dispersion of returns for a given security or market index. It\u2019s often measured as standard deviation or variance of historical returns over a certain period. The volatility here is measured as the annualized standard deviation between monthly returns from the security over the past year.\nVolatility reflects the uncertainty or risk of a security\u2019s value. Generally speaking, a higher volatility suggests a higher risk, because it implies a wider fluctuation around average price. This means the price of the security can change dramatically in either direction within a short period. Conversely, a lower volatility means that the security's price is more steady, which suggests a lower risk.\nAnother measurement of relative volatility is Beta. Beta is a measure of systematic risk of a security or a portfolio in comparison to the market as a whole. Beta is usually compared to 1. A beta of greater than 1 indicates that the security's price will be more volatile than the market.\nTesla Volatility Related Terms\nThank you for viewing the detailed overview of Tesla's Volatility provided by GuruFocus.com. Please click on the following links to see related term pages.\nTesla Business Description\nTesla Headlines\nFrom GuruFocus\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-19-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Mujahid Sadiq \n \u2022 \n08-21-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy Marketwired \n \u2022 \n08-06-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-04-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n07-29-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-11-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy PRNewswire \n \u2022 \n08-18-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-10-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n08-30-2024\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tBy GuruFocus Research \n \u2022 \n09-02-2024\n\n\n                    Disclaimers:  GuruFocus.com is not operated by a broker or a dealer. It has an affiliated registered investment adviser, which serves as the subadviser to an exchange traded fund. This investment adviser does not provide advice to individual investors. Under no circumstances does any information posted on GuruFocus.com represent a recommendation to buy or sell a security. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The individuals or entities selected as \"gurus\" may buy and sell securities before and after any particular article and report and information herein is published, with respect to the securities discussed in any article and report posted herein. Gurus may be added or dropped from the GuruFocus site at any time. In no event shall GuruFocus.com be liable to any member, guest or third party for any damages of any kind arising out of the use of any content or other material published or available on GuruFocus.com, or relating to the use of, or inability to use, GuruFocus.com or any content, including, without limitation, any investment losses, lost profits, lost opportunity, special, incidental, indirect, consequential or punitive damages. Past performance is a poor indicator of future performance. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute investment advice or recommendations. The information on this site is in no way guaranteed for completeness, accuracy or in any other way. The gurus listed in this website are not affiliated with GuruFocus.com, LLC. Stock quotes provided by InterActive Data. Fundamental company data provided by Morningstar, updated daily.\n                \n"
+    ],
+    "task_type": "2ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Tesla Volatility",
+          "numerical_value": 53.17,
+          "date": "2024-10-29",
+          "location": "",
+          "context": "Annualized volatility as of October 29, 2024"
+        },
+        {
+          "object": "Tesla Article Date",
+          "numerical_value": 21.0,
+          "date": "2024-08-21",
+          "location": "",
+          "context": "Date of the article published by Mujahid Sadiq"
+        }
+      ],
+      "question": "If you add the day of the month when the article was published on August 21, 2024, to Tesla's annualized volatility on October 29, 2024, and then multiply by 3, what is the result?",
+      "solution": "def solve():\n    # Extracted numerical values from the document\n    tesla_volatility = 53.17  # Tesla's annualized volatility as of October 29, 2024\n    article_day = 21  # Day of the month when the article was published on August 21, 2024\n\n    # Step 1: Perform the first arithmetic operation\n    intermediate_result = tesla_volatility + article_day  # Add the day of the month to the volatility\n\n    # Step 2: Use the result from step 1 in the second operation\n    answer = intermediate_result * 3  # Multiply by 3\n\n    return answer",
+      "steps": 2,
+      "answer": 222.51
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      10,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Sports Performance Analytics",
+    "Subtopic": "Player Performance Metrics",
+    "Query": "How did Lionel Messi's goal-scoring efficiency change from March 2024 to September 2024, and how does it compare to Cristiano Ronaldo's over the same period?",
+    "Document_ID": [
+      "Doc_10"
+    ],
+    "Documents": [
+      "Cristiano Ronaldo\nCristiano Ronaldo dos Santos Aveiro\nPosition: FW-MF (WM)\u00a0\u25aa\u00a0 Footed: Right\n187cm,\u00a083kg\u00a0(6-1\u00bd,\u00a0183lb)\nBorn:\nFebruary 5, 1985\nin Funchal, Portugal\npt\nNational Team:\u00a0Portugal pt\nClub: Al Nasr (KSA)\nTwitter:\n@Cristiano\nInstagram:\n@cristiano\nPro League\n13\n1164\n15\n7\n* see our coverage note\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nAl-Nassr(11-1-2, 2nd place in Saudi Professional League)\nRoster\nShow entire roster\nPortugal\nRoster\nShow entire roster\nOn this page:\nLast 5 Matches\nNext Match:\nFriday December 01, 2023 vs\nAl-Hilal\nMore:\nMatch Logs\n\u2022\nGoal Logs\nCompare Cristiano Ronaldo to\nPlayer News\nStandard Stats: Domestic Leagues\nShooting: Domestic Leagues\nPassing: Domestic Leagues\nPass Types: Domestic Leagues\nGoal and Shot Creation: Domestic Leagues\nDefensive Actions: Domestic Leagues\nPossession: Domestic Leagues\nPlaying Time: Domestic Leagues\nMiscellaneous Stats: Domestic Leagues\nPlayer Club Summary\nLeaderboard Appearances, Awards, and Honors\nWages\nAdditional Resources\nAbout FBref.com\nFBref.com launched (June 13, 2018) with domestic league coverage for England, France, Germany, Italy, Spain, and United States. Since then we have been steadily expanding our coverage to include domestic leagues from over 40 countries as well as domestic cup, super cup and youth leagues from top European countries. We have also added coverage for major international cups such as the UEFA Champions League and Copa Libertadores.\nFBref is the most complete sources for women's football data on the internet. This includes the entire history of the FIFA Women's World Cup as well as recent domestic league seasons from nine countries, including advanced stats like xG for most of those nine.\nIn collaboration with Opta, we are including advanced analytical data such as xG, xA, progressive passing, duels and more for over twenty competitions. For more information on the expected goals model and which competitions have advanced data, see our xG explainer.\nNote that player records are likely not complete for their careers. Players may come from or move to leagues we don't currently cover. This issue will go down over time, as we add new leagues and seasons. We will never in the future have less data than we do today.\nYou can sign up to receive an e-mail when new countries and features launch.\nFor more information, see our Launch Blog Post, the overall leagues/competition page with details on leagues and seasons we include, or our About Page.\nLet us know if you find an issue or have a suggestion.\nFBref is one of seven Sports-Reference.com sites.\nMore Cristiano Ronaldo Pages\nCristiano Ronaldo Overview\nPlayer Comparison\nStats by Competition\nMatch Logs (Summary)\nMatch Logs (Passing)\nMatch Logs (Pass Types)\nMatch Logs (Goal and Shot Creation)\nMatch Logs (Defensive Actions)\nMatch Logs (Possession)\nMatch Logs (Miscellaneous Stats)\nGoal Logs by Competition\nScouting Report\nFull Site Menu\nWe're Social...for Statheads\nEvery Sports Reference Social Media Account\nSite Last Updated: Sunday, November 26, 10:47PM\nQuestion, Comment, Feedback, or Correction?\nSubscribe to our Free Email Newsletter\nDo you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.\nFind out more.\nFAQs, Tip & Tricks\nAll logos are the trademark & property of their owners and not Sports Reference LLC.\nWe present them here for purely educational purposes.\nOur reasoning for presenting offensive logos.\nLogos were compiled by the amazing SportsLogos.net.\nCopyright \u00a9 2000-2023 Sports Reference LLC. All rights reserved.\nThe SPORTS REFERENCE and STATHEAD trademarks are owned exclusively by Sports Reference LLC. Use without license or authorization is expressly prohibited."
+    ],
+    "task_type": "2ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Cristiano Ronaldo's height",
+          "numerical_value": 187.0,
+          "date": "",
+          "location": "",
+          "context": "Measured in centimeters"
+        },
+        {
+          "object": "Cristiano Ronaldo's weight",
+          "numerical_value": 83.0,
+          "date": "",
+          "location": "",
+          "context": "Measured in kilograms"
+        },
+        {
+          "object": "Cristiano Ronaldo's birth year",
+          "numerical_value": 1985.0,
+          "date": "February 5, 1985",
+          "location": "Funchal, Portugal",
+          "context": "Year of birth"
+        }
+      ],
+      "question": "If Cristiano Ronaldo, born on February 5, 1985, in Funchal, Portugal, increases his height by 10 cm and decreases his weight by 5 kg, what will be the product of his new height and weight?",
+      "solution": "def solve():\n    # Original height and weight\n    height = 187  # in centimeters\n    weight = 83  # in kilograms\n\n    # Step 1: Increase height by 10 cm\n    new_height = height + 10\n\n    # Step 2: Decrease weight by 5 kg\n    new_weight = weight - 5\n\n    # Calculate the product of new height and weight\n    answer = new_height * new_weight\n    return answer",
+      "steps": 2,
+      "answer": 15366
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      1,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      11,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  },
+  {
+    "Topic": "Sports Performance Analytics",
+    "Subtopic": "Player Performance Metrics",
+    "Query": "What was the average distance covered per match by LeBron James from March 2024 to September 2024, and how does it compare to Giannis Antetokounmpo's average over the same period?",
+    "Document_ID": [
+      "Doc_11"
+    ],
+    "Documents": [
+      "\nLeBron James 2023-24 Advanced Game Log\n\n\n\nLeBron Raymone James\n\n    \n  \u25aa\n  Twitter:\n  KingJames\n  \n  \n  \u25aa\n  Instagram:\n  kingjames\n\n\n(King James, LBJ, Chosen One, Bron-Bron, The Little Emperor, The Akron Hammer, L-Train, Benjamin Buckets, Captain LeMerica)\n\n\n\n  Position:\n  \n  Small Forward, Power Forward, Point Guard, Center, and Shooting Guard\n\n\n  \n  \u25aa\n  \n  \n  Shoots:\n  \n  Right\n\n6-9,\u00a0250lb\u00a0(206cm,\u00a0113kg) \nTeam: Los Angeles Lakers\n\nBorn: \n\nDecember 30,\n            1984\n\n\n    in\u00a0Akron,\u00a0Ohio\nus\n\nRelatives: Son\u00a0Bronny\u00a0James \n\n\n    \n      High School:\n    \n    \n    \n      St. Vincent-St. Mary in Akron, Ohio\n\n\nRecruiting Rank:  2003 (1)\n\n\n\n  Draft:\n  \nCleveland Cavaliers, 1st round (1st pick, 1st overall), 2003 NBA Draft\n\n\nNBA Debut: October 29, 2003\n\n\nExperience:\u00a021 years\n  \n\n2024-25\nCareer\n4\n1496\n20.0\n27.1\n7.0\n7.5\n7.5\n7.4\n44.6\n50.6\n39.1\n34.8\n68.4\n73.6\n51.5\n54.7\n17.2\n27.0\n0.2\n263.9\nGame Logs\nSplits\nShooting\nLineups\nOn/Off\nOther LeBron James Pages\nMore LeBron James pages at Sports Reference\nGame-by-game stat line for the player\nPlayer stats broken down into various categories; i.e. home/away, monthly, etc...\nPlayer shooting history\nPlayer lineups\nPlayer on/off\nMore LeBron James Basketball Reference pages\nMore LeBron James pages at Sports Reference\nCompare LeBron James to other players\n\n2024-25 Lakers\n\n(3-1, 2nd place in NBA Western Conference)\n\n\n\n2024-25 Lakers\n\n(3-1, 2nd place in NBA Western Conference)\n\nLast Game: L 105-109 at PHO\nLast Game: L 105-109 at PHO\nNext Game: Wednesday, Oct. 30 at CLE\nFull Schedule and Results\n\nShow entire roster\n\n\n\u00bb\u00a0Switch to Basic Game Log\n\n\n2023-24 Regular Season\n2024 Playoffs\nMore James Pages\nLeBron James Overview\nGame Logs\nSplits\nShooting\nLineups\nOn/Off\nOther LeBron James Pages\nMore LeBron James pages at Sports Reference\nFull Site Menu\nWe're Social...for Statheads\nEvery Sports Reference Social Media Account\nSite Last Updated: Tuesday, October 29,  6:10AM\n\nQuestion, Comment, Feedback, or Correction?\nSubscribe to our Free Email Newsletter\nSubscribe to Stathead Basketball: Get your first month FREEYour All-Access Ticket to the Basketball Reference Database\nDo you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.  Find out more.\nFAQs, Tip & Tricks\nAll logos are the trademark & property of their owners and not Sports Reference LLC.  We present them here for purely educational purposes.\n\t\t\t\tOur reasoning for presenting offensive logos.\n\n\t\t\t\t\t\n\t\t\t\t\tLogos were compiled by the amazing SportsLogos.net.\n\nData Provided By\n\t\n\tthe official stats partner of the NBA, NHL and MLB.\nCopyright \u00a9 2000-2024 Sports Reference LLC. All rights reserved.\nThe SPORTS REFERENCE, STATHEAD, IMMACULATE GRID, and IMMACULATE FOOTY trademarks are owned exclusively by Sports Reference LLC. Use without license or authorization is expressly prohibited.\n\n\t\t\t\n"
+    ],
+    "task_type": "2ssd",
+    "Task": {
+      "relevant_quantity_cells": [
+        {
+          "object": "Los Angeles Lakers wins",
+          "numerical_value": 3.0,
+          "date": "2024-25 season",
+          "location": "NBA Western Conference",
+          "context": "Current standing"
+        },
+        {
+          "object": "Los Angeles Lakers losses",
+          "numerical_value": 1.0,
+          "date": "2024-25 season",
+          "location": "NBA Western Conference",
+          "context": "Current standing"
+        }
+      ],
+      "question": "Based on the Los Angeles Lakers' current standing in the NBA Western Conference for the 2024-25 season, what is their win percentage?",
+      "solution": "def solve():\n    # Extracted numerical values from the document\n    wins = 3  # Los Angeles Lakers wins\n    losses = 1  # Los Angeles Lakers losses\n\n    # Step 1: Calculate the total games played\n    total_games = wins + losses\n\n    # Step 2: Calculate the win percentage\n    answer = (wins / total_games) * 100\n\n    return answer",
+      "steps": 2,
+      "answer": 75.0
+    },
+    "Irrelevant_Documents_Indexs": [
+      0,
+      2,
+      16,
+      1,
+      10,
+      19,
+      17,
+      18,
+      7,
+      3,
+      8,
+      4,
+      14,
+      12,
+      13,
+      6,
+      9,
+      5,
+      15
+    ]
+  }
+]

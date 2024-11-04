@@ -1,0 +1,91 @@
+{
+  "Financial Market Analysis": [
+    {
+      "subtopic": "Trends in Stock Prices",
+      "Queries": [
+        {
+          "decomposable_query": "What was the overall percentage change in Nvidia's stock price from May 2024 to August 2024, and how did its volatility compare to Tesla's over the same period?",
+          "atomic_queries": [
+            "What was Nvidia's stock price in May 2024?",
+            "What was Nvidia's stock price in August 2024?",
+            "What was Tesla's stock price volatility in May 2024?",
+            "What was Tesla's stock price volatility in August 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the average monthly closing price of Apple stock from March 2024 to September 2024 compare to the same period in 2023?",
+          "atomic_queries": [
+            "What was the average monthly closing price of Apple stock from March 2024 to September 2024?",
+            "What was the average monthly closing price of Apple stock from March 2023 to September 2023?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Economic Indicators on Stock Performance",
+      "Queries": [
+        {
+          "decomposable_query": "How did the changes in the U.S. unemployment rate from March 2024 to September 2024 correlate with the performance of the S&P 500 index?",
+          "atomic_queries": [
+            "What was the U.S. unemployment rate in March 2024?",
+            "What was the U.S. unemployment rate in September 2024?",
+            "What was the performance of the S&P 500 index from March 2024 to September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the relationship between the Federal Reserve's interest rate changes and the NASDAQ index performance from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the Federal Reserve's interest rate changes from March 2024 to September 2024?",
+            "What was the NASDAQ index performance from March 2024 to September 2024?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sports Performance Analytics": [
+    {
+      "subtopic": "Player Performance Metrics",
+      "Queries": [
+        {
+          "decomposable_query": "How did the average running speed and total distance covered by Lionel Messi in matches from March 2024 to September 2024 compare to his performance in the same period in 2023?",
+          "atomic_queries": [
+            "What was Lionel Messi's average running speed in matches from March 2024 to September 2024?",
+            "What was the total distance covered by Lionel Messi in matches from March 2024 to September 2024?",
+            "What was Lionel Messi's average running speed in matches from March 2023 to September 2023?",
+            "What was the total distance covered by Lionel Messi in matches from March 2023 to September 2023?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the correlation between Cristiano Ronaldo's goal-scoring frequency and his average heart rate during matches from March 2024 to September 2024?",
+          "atomic_queries": [
+            "How many goals did Cristiano Ronaldo score in matches from March 2024 to September 2024?",
+            "What was Cristiano Ronaldo's average heart rate during matches from March 2024 to September 2024?",
+            "What is the correlation coefficient between goal-scoring frequency and average heart rate for Cristiano Ronaldo during this period?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Team Performance Analysis",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of player substitutions on the win-loss ratio of Manchester United in matches from March 2024 to September 2024?",
+          "atomic_queries": [
+            "How many matches did Manchester United win from March 2024 to September 2024?",
+            "How many matches did Manchester United lose from March 2024 to September 2024?",
+            "How many player substitutions were made by Manchester United in matches they won during this period?",
+            "How many player substitutions were made by Manchester United in matches they lost during this period?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the average possession time of FC Barcelona in matches from March 2024 to September 2024 correlate with their goal difference?",
+          "atomic_queries": [
+            "What was the average possession time of FC Barcelona in matches from March 2024 to September 2024?",
+            "What was the goal difference for FC Barcelona in matches from March 2024 to September 2024?",
+            "What is the correlation coefficient between average possession time and goal difference for FC Barcelona during this period?"
+          ]
+        }
+      ]
+    }
+  ]
+}

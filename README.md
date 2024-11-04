@@ -1,10 +1,29 @@
-# README
 
-A repo containing all the basic file templates and general guidelines for any open source project at Salesforce.
+# MathHay
 
-## Usage
+Data and code for our paper [An Automated Benchmark for Long-Context Mathematical Reasoning in LLMs](https://arxiv.org/abs/2410.04698).
 
-It's required that all files must be placed at the top level of your repository.
+<!-- :star: Our data and method have inspired or been used for the development of recent large language models (LLMs) including [Google's Gemini](https://gemini.google.com), [Perplexity.AI's Online LLMs](https://blog.perplexity.ai/blog/introducing-pplx-online-llms), [You.com](https://about.you.com/introducing-the-you-api-web-scale-search-for-llms), and [Contextual AI's RAG 2.0](https://contextual.ai/introducing-rag2) :star: -->
 
-> **NOTE** Your README should contain detailed, useful information about the project!
+Quick links
+
+[Automated Benchmark Generation]()
+
+[Evaluation]()
+
+python -m spacy download en_core_web_sm
+
+
+## Citation
+
+
+If you use our data or method, please cite our paper:
+```bibtex
+@article{wang2024mathhay,
+  title={MathHay: An Automated Benchmark for Long-Context Mathematical Reasoning in LLMs},
+  author={Wang, Lei and Dong, Shan and Xu, Yuhui and Dong, Hanze and Wang, Yalu and Saha, Amrita and Lim, Ee-Peng and Xiong, Caiming and Sahoo, Doyen},
+  journal={arXiv preprint arXiv:2410.04698},
+  year={2024}
+}
+```
 
