@@ -5,11 +5,10 @@ Data and code for our paper [An Automated Benchmark for Long-Context Mathematica
 
 <!-- :star: Our data and method have inspired or been used for the development of recent large language models (LLMs) including [Google's Gemini](https://gemini.google.com), [Perplexity.AI's Online LLMs](https://blog.perplexity.ai/blog/introducing-pplx-online-llms), [You.com](https://about.you.com/introducing-the-you-api-web-scale-search-for-llms), and [Contextual AI's RAG 2.0](https://contextual.ai/introducing-rag2) :star: -->
 
-Quick links
 
-[Automated Benchmark Generation]()
+## 💥 News 💥
+- **[2023.10.03]** Our paper is now accessible at https://arxiv.org/abs/2410.04698.
 
-[Evaluation]()
 
 python -m spacy download en_core_web_sm
 
