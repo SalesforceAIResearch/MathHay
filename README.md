@@ -17,7 +17,7 @@ For more details, please refer to the project page: https://mathhay.github.io/.
 
 ### Overview of the automatic construction of MATHHAY:
 <p align="center">
-    <img src="assets/framework.png" width="80%"> <br>
+    <img src="assets/framework.png" width="96%"> <br>
   Overview of the framework for the automatic construction of the <b>MATHHAY</b> Benchmark.
 </p>
 
@@ -45,6 +45,10 @@ For more details, please refer to the project page: https://mathhay.github.io/.
 
 Accuracy scores on the **MathHay** V1:
 
+<p align="center">
+    <img src="assets/results_v1.png" width="96%"> <br>
+  Performance of Selected Models on <b>MATHHAY</b> (32K to 128K tokens). The model with the best performance is highlighted in bold..
+</p>
 
 python -m spacy download en_core_web_sm
 
