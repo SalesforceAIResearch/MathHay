@@ -57,7 +57,7 @@ Accuracy scores on the **MathHay** V1:
   Examples of the single step single document tasks.
 </p>
 
-## 🔮 Automatic Generation for MathHay
+## Automatic Generation for MathHay
 
 Run the following commands to install dependencies:
 ```sh
@@ -89,7 +89,7 @@ sh scripts/bench_generation.sh March-2024-to-September-2024 2 2 2
 ```
 where assigned input arguments are time, number of topics, number of subtopics, and number of queries.
 
-## 🔮 Evaluations on MathVista
+## Evaluations on MathVista
 
 Run the evaluation command:
 ```sh
@@ -97,6 +97,8 @@ sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 32000 middle f
 ```
 where assigned input arguments are time, task type, models to be evaluated, input length, placement, and dataset choice.
 
+## License and Usage
+Users need to make their own assessment regarding any obligations or responsibilities under the corresponding licenses or terms and conditions pertaining to the original datasets and data. This repository is being released for research purposes only.
 
 ## Citation
 
