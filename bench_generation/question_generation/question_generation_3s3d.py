@@ -181,6 +181,7 @@ Output:
 
     @classmethod
     def generate(cls, llm: Any, **kwargs) -> pd.DataFrame:
+        data_path = kwargs["data_path"]
         ReasoningTaskListParser = PydanticOutputParser(pydantic_object=ReasoningTaskList)
         ThreeStepThreeDocumentTaskPromptTemplate = PromptTemplate(
             template=cls.get_three_step_three_document_task_prompt_template(),
@@ -198,107 +199,115 @@ Output:
             if len(doc_ids)<3:
                 continue
             print ("len:", len(doc_ids))
-            # for doc_idx in range(len(doc_ids)-1):
-            doc_idx=0
-            doc_idx_1 = doc_idx
-            doc_idx_2 = doc_idx+1
-            doc_idx_3 = doc_idx+2
-            doc_text_1 = filtered_documents[doc_idx_1]
-            doc_text_2 = filtered_documents[doc_idx_2]
-            doc_text_3 = filtered_documents[doc_idx_3]
+            if len(doc_ids) == 3:
+                start = [0]
+                end = [3]
+            elif len(doc_ids) == 4:
+                start = [0, 1]
+                end = [3, 4]
+            for doc_idx in start: 
+                doc_idx_1 = doc_idx
+                doc_idx_2 = doc_idx+1
+                doc_idx_3 = doc_idx+2
+                doc_text_1 = filtered_documents[doc_idx_1]
+                doc_text_2 = filtered_documents[doc_idx_2]
+                doc_text_3 = filtered_documents[doc_idx_3]
 
-            doc_id_1 = doc_ids[doc_idx_1]
-            doc_id_2 = doc_ids[doc_idx_2]
-            doc_id_3 = doc_ids[doc_idx_3]
+                doc_id_1 = doc_ids[doc_idx_1]
+                doc_id_2 = doc_ids[doc_idx_2]
+                doc_id_3 = doc_ids[doc_idx_3]
 
-            message_list = [{"role": "user", "content": ThreeStepThreeDocumentTaskPromptTemplate.format(
-                document1=doc_text_1,
-                document2=doc_text_2,
-                document3=doc_text_3,
-                format_instructions=ReasoningTaskListParser.get_format_instructions()
-            )}]
+                message_list = [{"role": "user", "content": ThreeStepThreeDocumentTaskPromptTemplate.format(
+                    document1=doc_text_1,
+                    document2=doc_text_2,
+                    document3=doc_text_3,
+                    format_instructions=ReasoningTaskListParser.get_format_instructions()
+                )}]
 
-            response = llm.call_llm_api(message_list, temperature=0.7, max_tokens=4096)
+                response = llm.call_llm_api(message_list, temperature=0.7, max_tokens=4096)
 
-            try:
-                response_json = extract_json_from_string(response)
-            except:
-                response_json = {}
-            
-            # taskList = ReasoningTaskList.parse_obj(response_json)
-            # print (taskList)
-            # assert 1==0
-            try:
-                taskList = ReasoningTaskList.parse_obj(response_json)
-                print ("taskList successed")
-            except:
-                print ("taskList failed")
-                continue
-            taskList_dict = taskList.dict()
-            # print ('taskList_dict', taskList_dict.keys())
-            # task = ReasoningTask.parse_obj(response)
-            new_tasks = []
-            # print ("len of taskList: ", len(taskList.tasks))
-            # assert 1==0
-            for t_i, task in enumerate(taskList.tasks):
-                # Alignment check and refinement loop
-                # print (t_i, task)
-                success_flag = 0
-                data_stat['total']+=1
-                for _ in range(3):  # Max 3 attempts
-                    # alignment_check = cls.check_alignment(llm, task, doc_text_1, doc_text_2, doc_text_3)
-                    try:
-                        alignment_check = cls.check_alignment(llm, task, doc_text_1, doc_text_2, doc_text_3)
-                    except:
-                        continue
-                    # print(f"--question {_}: {task.question}")
-                    # print(f"---alignment_check: {alignment_check}")
-                    if alignment_check is None:
-                        continue
-                    if alignment_check.alignment == "Yes":
-                        success_flag = 1
-                        new_task = task
-                        data_stat['orign_correct']+=1
-                        break  # Stop if aligned
+                try:
+                    response_json = extract_json_from_string(response)
+                except:
+                    response_json = {}
+                
+                # taskList = ReasoningTaskList.parse_obj(response_json)
+                # print (taskList)
+                # assert 1==0
+                try:
+                    taskList = ReasoningTaskList.parse_obj(response_json)
+                    print ("taskList successed")
+                except:
+                    print ("taskList failed")
+                    continue
+                taskList_dict = taskList.dict()
+                # print ('taskList_dict', taskList_dict.keys())
+                # task = ReasoningTask.parse_obj(response)
+                new_tasks = []
+                # print ("len of taskList: ", len(taskList.tasks))
+                # assert 1==0
+                for t_i, task in enumerate(taskList.tasks):
+                    # Alignment check and refinement loop
+                    # print (t_i, task)
+                    success_flag = 0
+                    data_stat['total']+=1
+                    for _ in range(3):  # Max 3 attempts
+                        # alignment_check = cls.check_alignment(llm, task, doc_text_1, doc_text_2, doc_text_3)
+                        try:
+                            alignment_check = cls.check_alignment(llm, task, doc_text_1, doc_text_2, doc_text_3)
+                        except:
+                            continue
+                        # print(f"--question {_}: {task.question}")
+                        # print(f"---alignment_check: {alignment_check}")
+                        if alignment_check is None:
+                            continue
+                        if alignment_check.alignment == "Yes":
+                            success_flag = 1
+                            new_task = task
+                            data_stat['orign_correct']+=1
+                            break  # Stop if aligned
+                        else:
+                            # Refine based on feedback
+                            task = cls.refine_task(llm, task, alignment_check.explanation, taskList.quantity_cells_from_three_documents)
+                            # task = new_task
+
+                    # if success_flag:
+                    #     new_tasks.append(new_task.dict())
+                    #     if _ >0:
+                    #         data_stat['refined_correct']+=1
+                    # print (f"success_flag: {success_flag}")
+                    if success_flag:
+                        task_for_save = new_task.dict()
+                        if _ >0:
+                            task_for_save["refined_flag"] = 1
+                            data_stat['refined_correct']+=1
+                        else:
+                            task_for_save["refined_flag"] = 0
+                        new_tasks.append(task_for_save)
+                        total_ones+=1
                     else:
-                        # Refine based on feedback
-                        task = cls.refine_task(llm, task, alignment_check.explanation, taskList.quantity_cells_from_three_documents)
-                        # task = new_task
+                        task_for_save = taskList.tasks[t_i].dict()
+                        task_for_save["refined_flag"] = -1
+                        # print ("wrong", task_for_save)
+                    print (f"success_flag: {success_flag}, total: {total_ones}")
+                taskList_dict['tasks'] = new_tasks
 
-                # if success_flag:
-                #     new_tasks.append(new_task.dict())
-                #     if _ >0:
-                #         data_stat['refined_correct']+=1
-                # print (f"success_flag: {success_flag}")
-                if success_flag:
-                    task_for_save = new_task.dict()
-                    if _ >0:
-                        task_for_save["refined_flag"] = 1
-                        data_stat['refined_correct']+=1
-                    else:
-                        task_for_save["refined_flag"] = 0
-                    new_tasks.append(task_for_save)
-                    total_ones+=1
-                else:
-                    task_for_save = taskList.tasks[t_i].dict()
-                    task_for_save["refined_flag"] = -1
-                    # print ("wrong", task_for_save)
-                print (f"success_flag: {success_flag}, total: {total_ones}")
-            taskList_dict['tasks'] = new_tasks
+                if new_tasks != []:
+                    data_example = {
+                        "Topic": elem["Topic"],
+                        "Subtopic": elem["Subtopic"],
+                        "decomposable_query": elem["decomposable_query"],
+                        "atomic_queries": elem["atomic_queries"],
+                        "doc_id": [doc_id_1, doc_id_2, doc_id_3],
+                        "document": [doc_text_1, doc_text_2, doc_text_3],
+                        "tasks": new_tasks
+                    }
+                    data_examples.append(data_example)
 
-            if new_tasks != []:
-                data_example = {
-                    "Topic": elem["Topic"],
-                    "Subtopic": elem["Subtopic"],
-                    "decomposable_query": elem["decomposable_query"],
-                    "atomic_queries": elem["atomic_queries"],
-                    "doc_id": [doc_id_1, doc_id_2],
-                    "document": [doc_text_1, doc_text_2],
-                    "tasks": new_tasks
-                }
-                data_examples.append(data_example)
+                    save_json_file(data_path, data_example)
+                    print ("data saving updated.")
         
-            logging.info(f"data sta: {data_stat}")
+                logging.info(f"data sta: {data_stat}")
             if total_ones>100:
                 break
         
@@ -307,7 +316,7 @@ Output:
 
 
     @classmethod
-    def run(cls, llm: Any, data_list: Dict, dave_path: str, generate_questions_flag: bool) -> pd.DataFrame:
+    def run(cls, llm: Any, data_list: Dict, data_path: str, generate_questions_flag: bool) -> pd.DataFrame:
         """
         Run the task generation or load from Json based on the generate_questions_flag.
         
@@ -319,12 +328,12 @@ Output:
         """
         if generate_questions_flag:
             logger.info("Generating tasks and saving to CSV.")
-            data_result = cls.generate(llm, data_list=data_list)
-            save_json_file(dave_path, data_result)
+            data_result = cls.generate(llm, data_path=data_path, data_list=data_list)
+            save_json_file(data_path, data_result)
             return data_result
         else:
             logger.info("Loading tasks from existing CSV.")
-            data_result = load_json_file(dave_path)
+            data_result = load_json_file(data_path)
             return data_result
             # sss
 
@@ -348,7 +357,7 @@ if __name__ == "__main__":
     tasks_data = ThreeStepThreeDocumentTask.run(
         llm=llm,
         data_list=summarized_data,
-        dave_path=args.output_file,
+        data_path=args.output_file,
         generate_questions_flag=args.generate_questions_flag
     )
 

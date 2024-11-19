@@ -37,6 +37,22 @@ python -m evaluation.evaluation \
 # sh scripts/evaluation.sh March-2024-to-September-2024 3s2d gpt-4o 32000 first-middle full
 # sh scripts/evaluation.sh March-2024-to-September-2024 3s3d gpt-4o 32000 first-middle-last full
 
+# sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 64000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 2ssd gpt-4o 64000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3ssd gpt-4o 64000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 ss2d gpt-4o 64000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 2s2d gpt-4o 64000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3s2d gpt-4o 64000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3s3d gpt-4o 64000 first-middle-last full
+
+# sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 128000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 2ssd gpt-4o 128000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3ssd gpt-4o 128000 middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 ss2d gpt-4o 128000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 2s2d gpt-4o 128000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3s2d gpt-4o 128000 first-middle full
+# sh scripts/evaluation.sh March-2024-to-September-2024 3s3d gpt-4o 128000 first-middle-last full
+
 # sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 32000 middle verified
 # sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 64000 middle verified
 # sh scripts/evaluation.sh March-2024-to-September-2024 sssd gpt-4o 128000 middle verified

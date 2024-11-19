@@ -79,7 +79,7 @@ do
       --llm_batch_size 10 \
       --summarized_documents_file "$SUMMARIZED_DOCUMENTS_FILE" \
       --output_file "$OUTPUT_FILE" \
-      # --generate_questions_flag
+      --generate_questions_flag
 
 
   GENERATED_QUESTIONS_FILE="./outputs/data/${TIME}/generated_questions_${TASK}.json"
@@ -95,6 +95,6 @@ do
 
 done
 
-# FILE_NAME="./outputs/data/${TIME}/"
+FILE_NAME="./outputs/data/${TIME}/"
 
-# python -m bench_generation.haystack_construction.haystack --file_dir "$FILE_NAME"
+python -m bench_generation.haystack_construction.haystack --file_dir "$FILE_NAME"

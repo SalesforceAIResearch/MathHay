@@ -37,8 +37,9 @@ def reorganization(dir_):
 
     all_files = glob.glob(os.path.join(dir_, '*'))
     selected_files = [f for f in all_files if 'high_quality_questions' in os.path.basename(f)]
-
-    name_dict = {'sssd': 'SingleStepSingleDocumentTask',
+    # print ("selected_files:", selected_files)
+    name_dict = {
+            'sssd': 'SingleStepSingleDocumentTask',
             '2ssd': 'TwoStepSingleDocumentTask',
             '3ssd': 'ThreeStepSingleDocumentTask',
             'ss2d': 'SingleStepTwoDocumentTask',
@@ -59,8 +60,13 @@ def reorganization(dir_):
     for selected_file in selected_files:
         task_name = ''
         for k, v in name_dict.items():
+            print (k, selected_file, k in selected_file)
             if k in selected_file:
                 task_name = k
+                print ('==', task_name)
+        # print (name_dict)
+        # print ('--',selected_file)
+        # print (final_data)
         data_list = load_json_file(selected_file)
         print (selected_file, task_name, len(data_list))
 
@@ -75,6 +81,12 @@ def reorganization(dir_):
                 documents = elem["document"]
 
             for task in tasks:
+                if task["consistency"] != 1:
+                    print ("**consistency is not 1")
+                    continue
+                # print (elem)
+                # print (task.keys())
+                # assert 1==0
                 irrelevant_documents_indexs = []
                 for doc_id in document_indices:
                     if "Doc_"+str(doc_id) in doc_ids:
@@ -91,6 +103,8 @@ def reorganization(dir_):
                     "Task": task,
                     "Irrelevant_Documents_Indexs": irrelevant_documents_indexs,
                 }
+
+                count+=1
                     
                 final_data[task_name].append(data_row)
 
@@ -136,6 +150,8 @@ def reorganization(dir_):
         unerified_sum_file_name = os.path.join(dir_, f'unverified_haystack_question_{name}.json')
         save_json_file(unerified_sum_file_name, unverified_data_rows)
         logging.info(f"{unerified_sum_file_name} saving done.")
+
+    print ("total number of data:", count)
 
 
 if __name__ == "__main__":
