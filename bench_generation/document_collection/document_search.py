@@ -124,10 +124,10 @@ class DocumentCollector:
 
         for main_topic, subtopics in tqdm(query_dict.items(), desc="Processing fetch_page_content"):
             page_content_dict[main_topic] = []
-            for subtopic_info in subtopics[:1]:
+            for subtopic_info in subtopics[:]:
                 subtopic = subtopic_info['subtopic']
                 queries = []
-                for query in subtopic_info['Queries'][:1]:
+                for query in subtopic_info['Queries'][:]:
                     documents = []
                     for atomic_query in query['atomic_queries']:
                         result = self.tavily_client_wrapper.search(atomic_query)

@@ -180,6 +180,7 @@ Output:
         data_stat = {"total":0, "orign_correct":0, 'refined_correct':0}
         data_list = kwargs["data_list"]
         data_examples = []
+        total_ones = 0
         for elem in data_list:
             filtered_documents = elem["filtered_documents"]
             doc_ids = elem["doc_ids"]
@@ -209,16 +210,20 @@ Output:
                 new_tasks = []
                 # print (taskList)
                 # assert 1==0
-                for task in taskList.tasks:
+                for t_i, task in enumerate(taskList.tasks):
                     # Alignment check and refinement loop
                     success_flag = 0
                     data_stat['total']+=1
                     atask = task
                     for _ in range(3):  # Max 3 attempts
-                        alignment_check = cls.check_alignment(llm, atask)
-                        logging.info(f"*QUESTION-{_}:{atask.question}\n--")
-                        logging.info(f"*SOLUTION-{_}:{atask.solution}\n--")
-                        logging.info(f"*ALIGNMENT:{alignment_check}\n--")
+                        try:
+                            alignment_check = cls.check_alignment(llm, atask)
+                        except:
+                            continue
+                        # alignment_check = cls.check_alignment(llm, atask)
+                        # logging.info(f"*QUESTION-{_}:{atask.question}\n--")
+                        # logging.info(f"*SOLUTION-{_}:{atask.solution}\n--")
+                        # logging.info(f"*ALIGNMENT:{alignment_check}\n--")
                         if alignment_check is None:
                             continue
                         if alignment_check.alignment == "Yes":
@@ -235,10 +240,24 @@ Output:
                     # print()
 
                     if success_flag:
-                        new_tasks.append(new_task.dict())
+                        task_for_save = new_task.dict()
                         if _ >0:
+                            task_for_save["refined_flag"] = 1
                             data_stat['refined_correct']+=1
-                    print (f"success_flag: {success_flag}")
+                        else:
+                            task_for_save["refined_flag"] = 0
+                        new_tasks.append(task_for_save)
+                        total_ones+=1
+                    else:
+                        task_for_save = taskList.tasks[t_i].dict()
+                        task_for_save["refined_flag"] = -1
+                        # print ("wrong", task_for_save)
+                    print (f"success_flag: {success_flag}, total: {total_ones}")
+                    # if success_flag:
+                    #     new_tasks.append(new_task.dict())
+                    #     if _ >0:
+                    #         data_stat['refined_correct']+=1
+                    # print (f"success_flag: {success_flag}")
                 taskList_dict['tasks'] = new_tasks
 
                 if new_tasks != []:
@@ -254,6 +273,8 @@ Output:
                     data_examples.append(data_example)
             
                 logging.info(f"data sta: {data_stat}")
+            if total_ones>100:
+                break
         
         return data_examples
 

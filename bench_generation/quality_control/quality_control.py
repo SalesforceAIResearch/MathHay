@@ -164,7 +164,7 @@ def verify_with_llm(llm, question, relevant_quantity_cells, documents) -> float:
 
     python_solution = verified_task.python_solution
     answer = verified_task.answer
-
+    final_answer = execute_function_from_string(python_solution)
     try:
         final_answer = execute_function_from_string(python_solution)
         logger.info("execute_function_from_string")
@@ -207,7 +207,9 @@ def quality_control(llm, data_list: pd.DataFrame, name="SingleStepSingleDocument
             except:
                 logging.info("execution error")
                 continue
-
+                
+            # print ("solution_code\n", solution_code)
+            # print ("computed_answer:", computed_answer)
 
             # Verify with LLM
             if name in ["SingleStepTwoDocumentTask", "TwoStepTwoDocumentTask", "ThreeStepTwoDocumentTask"]:
@@ -235,8 +237,12 @@ def quality_control(llm, data_list: pd.DataFrame, name="SingleStepSingleDocument
                 # break
             if consistent:
                 task["answer"] = computed_answer
+                task["consistency"] = 1
                 tasks_filterd.append(task)
                 filtered_count+=1
+            else:
+                task["consistency"] = 0
+                tasks_filterd.append(task)
             original_count+=1
 
             print ("*********************")

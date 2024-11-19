@@ -87,17 +87,17 @@ Example output format:
                             format_instructions=parser.get_format_instructions()
                         )
                         message_list = [{"role": "user", "content": input_x}]
-                        response = llm.call_llm_api(message_list, temperature=0, max_tokens=4096)
+                        # response = llm.call_llm_api(message_list, temperature=0, max_tokens=4096)
 
-                        response_json = extract_json_from_string(response)
-                        if response_json is not None:
-                            response_str = response_json.get("summarized_content", "")
-                            print ("# ok")
-                        else:
-                            response_str = ""
-                            error_c+=1
-                            print ("# errors:", error_c)
-                        summarized_documents.append(response_str)
+                        # response_json = extract_json_from_string(response)
+                        # if response_json is not None:
+                        #     response_str = response_json.get("summarized_content", "")
+                        #     print ("# ok")
+                        # else:
+                        #     response_str = ""
+                        #     error_c+=1
+                        #     print ("# errors:", error_c)
+                        # summarized_documents.append(response_str)
 
                         doc_id = 'Doc_'+str(document_count)
                         doc_ids.append(doc_id)
@@ -128,7 +128,7 @@ Example output format:
             for ii in range(len(filtered_documents)):
                 doc_id = doc_ids[ii]
                 document = filtered_documents[ii]
-                summarized_document = summarized_documents[ii]
+                summarized_document = ''
                 document_data.append({
                     'Document_ID': doc_id,
                     'Document': document,

@@ -27,7 +27,7 @@ def parse_args():
 
 class Query(BaseModel):
     decomposable_query: str = Field(
-        description="A query that can be divided into multiple sub-queries to reach an answer. It often requires multiple steps or pieces of information to fully resolve."
+        description="A query that can be divided into multiple sub-queries to reach an answer. It often requires three or four steps or pieces of information to fully resolve."
     )
     atomic_queries: List[str] = Field(
         description="A list of atomic sub-queries derived from the decomposable query. Each atomic query should contain one realistic object, intended for searching a specific piece of information on a website. These queries are indivisible and represent a single, straightforward question."
@@ -52,7 +52,7 @@ Instructions:
 2. For Each Subtopic:
   - Generate {num_queries} detailed queries requiring mathematical and numerical reasoning.
   - Structure each query into two parts:
-    - Decomposable Query: A high-level, complex query that requires reasoning across multiple steps to resolve.
+    - Decomposable Query: A high-level, complex query that requires reasoning across three or four steps to resolve.
     - Atomic Queries: A list of simpler, indivisible sub-queries, each seeking a specific piece of data or a straightforward answer. The atomic queries should be individually answerable and, when combined, provide the information needed to resolve the decomposable query.
 
 3. Ensure each query specifies relevant entities and the time period {time_period} within which numerical data should be gathered and reasoned upon.
@@ -108,8 +108,11 @@ Please follow the provided format and ensure the output aligns with the example 
         response_json_dict = {}
         for response in responses:
             response_json = extract_json_from_string(response)
-            if "subtopic_and_query_map" in response_json:
-                response_json_dict.update(response_json["subtopic_and_query_map"])
+            try:
+                if "subtopic_and_query_map" in response_json :
+                    response_json_dict.update(response_json["subtopic_and_query_map"])
+            except:
+                pass
         return response_json_dict
 
 if __name__ == "__main__":

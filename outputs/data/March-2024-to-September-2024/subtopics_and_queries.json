@@ -18,71 +18,1762 @@
             "What was the average monthly closing price of Apple stock from March 2024 to September 2024?",
             "What was the average monthly closing price of Apple stock from March 2023 to September 2023?"
           ]
-        }
-      ]
-    },
-    {
-      "subtopic": "Impact of Economic Indicators on Stock Performance",
-      "Queries": [
+        },
         {
-          "decomposable_query": "How did the changes in the U.S. unemployment rate from March 2024 to September 2024 correlate with the performance of the S&P 500 index?",
+          "decomposable_query": "What was the correlation between the stock prices of Amazon and Microsoft from April 2024 to July 2024?",
           "atomic_queries": [
-            "What was the U.S. unemployment rate in March 2024?",
-            "What was the U.S. unemployment rate in September 2024?",
-            "What was the performance of the S&P 500 index from March 2024 to September 2024?"
+            "What were the daily closing prices of Amazon stock from April 2024 to July 2024?",
+            "What were the daily closing prices of Microsoft stock from April 2024 to July 2024?",
+            "How is correlation calculated between two sets of stock prices?"
           ]
         },
         {
-          "decomposable_query": "What was the relationship between the Federal Reserve's interest rate changes and the NASDAQ index performance from March 2024 to September 2024?",
+          "decomposable_query": "Which company had the highest stock price increase percentage from June 2024 to September 2024 among Google, Facebook, and Netflix?",
+          "atomic_queries": [
+            "What was Google's stock price in June 2024?",
+            "What was Google's stock price in September 2024?",
+            "What was Facebook's stock price in June 2024?",
+            "What was Facebook's stock price in September 2024?",
+            "What was Netflix's stock price in June 2024?",
+            "What was Netflix's stock price in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of the Federal Reserve's interest rate changes on the stock prices of major banks from March 2024 to September 2024?",
           "atomic_queries": [
             "What were the Federal Reserve's interest rate changes from March 2024 to September 2024?",
-            "What was the NASDAQ index performance from March 2024 to September 2024?"
+            "What were the stock prices of JPMorgan Chase from March 2024 to September 2024?",
+            "What were the stock prices of Bank of America from March 2024 to September 2024?",
+            "What were the stock prices of Citigroup from March 2024 to September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the stock prices of renewable energy companies compare to traditional energy companies from May 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the stock prices of Tesla from May 2024 to August 2024?",
+            "What were the stock prices of NextEra Energy from May 2024 to August 2024?",
+            "What were the stock prices of ExxonMobil from May 2024 to August 2024?",
+            "What were the stock prices of Chevron from May 2024 to August 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of geopolitical tensions on the stock prices of defense companies from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the major geopolitical events affecting defense companies from March 2024 to September 2024?",
+            "What were the stock prices of Lockheed Martin from March 2024 to September 2024?",
+            "What were the stock prices of Raytheon Technologies from March 2024 to September 2024?",
+            "What were the stock prices of Northrop Grumman from March 2024 to September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the stock prices of major tech companies react to quarterly earnings reports from April 2024 to July 2024?",
+          "atomic_queries": [
+            "What were the quarterly earnings reports of Apple from April 2024 to July 2024?",
+            "What were the stock prices of Apple following each earnings report from April 2024 to July 2024?",
+            "What were the quarterly earnings reports of Microsoft from April 2024 to July 2024?",
+            "What were the stock prices of Microsoft following each earnings report from April 2024 to July 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the trend in stock buybacks among Fortune 500 companies from March 2024 to September 2024, and how did it affect their stock prices?",
+          "atomic_queries": [
+            "Which Fortune 500 companies announced stock buybacks from March 2024 to September 2024?",
+            "What were the stock prices of these companies before and after the buyback announcements?",
+            "What is the typical impact of stock buybacks on stock prices?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the stock prices of pharmaceutical companies change in response to new drug approvals from March 2024 to September 2024?",
+          "atomic_queries": [
+            "Which pharmaceutical companies received new drug approvals from March 2024 to September 2024?",
+            "What were the stock prices of these companies before and after the drug approvals?",
+            "What is the typical impact of drug approvals on pharmaceutical stock prices?"
           ]
         }
       ]
     }
   ],
-  "Sports Performance Analytics": [
+  "Climate Change Impact Assessment": [
     {
-      "subtopic": "Player Performance Metrics",
+      "subtopic": "Sea Level Rise Projections",
       "Queries": [
         {
-          "decomposable_query": "How did the average running speed and total distance covered by Lionel Messi in matches from March 2024 to September 2024 compare to his performance in the same period in 2023?",
+          "decomposable_query": "What is the projected increase in sea level for the coastal city of Miami from March 2024 to September 2024, and how does it compare to the historical average increase over the same months in the past decade?",
           "atomic_queries": [
-            "What was Lionel Messi's average running speed in matches from March 2024 to September 2024?",
-            "What was the total distance covered by Lionel Messi in matches from March 2024 to September 2024?",
-            "What was Lionel Messi's average running speed in matches from March 2023 to September 2023?",
-            "What was the total distance covered by Lionel Messi in matches from March 2023 to September 2023?"
+            "What is the projected sea level for Miami in March 2024?",
+            "What is the projected sea level for Miami in September 2024?",
+            "What was the average sea level in Miami from March to September over the past decade?",
+            "How does the projected increase compare to the historical average?"
           ]
         },
         {
-          "decomposable_query": "What was the correlation between Cristiano Ronaldo's goal-scoring frequency and his average heart rate during matches from March 2024 to September 2024?",
+          "decomposable_query": "How will the projected sea level rise from March 2024 to September 2024 affect the flood risk in New York City, and what mitigation measures are recommended?",
           "atomic_queries": [
-            "How many goals did Cristiano Ronaldo score in matches from March 2024 to September 2024?",
-            "What was Cristiano Ronaldo's average heart rate during matches from March 2024 to September 2024?",
-            "What is the correlation coefficient between goal-scoring frequency and average heart rate for Cristiano Ronaldo during this period?"
+            "What is the projected sea level rise in New York City from March 2024 to September 2024?",
+            "What is the current flood risk level in New York City?",
+            "What are the recommended mitigation measures for flood risk in New York City?",
+            "How does the projected sea level rise impact the flood risk?"
           ]
         }
       ]
     },
     {
-      "subtopic": "Team Performance Analysis",
+      "subtopic": "Agricultural Yield Changes",
       "Queries": [
         {
-          "decomposable_query": "What was the impact of player substitutions on the win-loss ratio of Manchester United in matches from March 2024 to September 2024?",
+          "decomposable_query": "What is the expected change in wheat yield in Kansas from March 2024 to September 2024 due to climate change, and how does it compare to the yield changes in the previous five years?",
           "atomic_queries": [
-            "How many matches did Manchester United win from March 2024 to September 2024?",
-            "How many matches did Manchester United lose from March 2024 to September 2024?",
-            "How many player substitutions were made by Manchester United in matches they won during this period?",
-            "How many player substitutions were made by Manchester United in matches they lost during this period?"
+            "What is the projected wheat yield in Kansas for March 2024?",
+            "What is the projected wheat yield in Kansas for September 2024?",
+            "What were the wheat yield changes in Kansas over the past five years?",
+            "How does the expected change compare to historical changes?"
           ]
         },
         {
-          "decomposable_query": "How did the average possession time of FC Barcelona in matches from March 2024 to September 2024 correlate with their goal difference?",
+          "decomposable_query": "How will the predicted temperature changes from March 2024 to September 2024 affect corn production in Iowa, and what adaptation strategies are suggested?",
           "atomic_queries": [
-            "What was the average possession time of FC Barcelona in matches from March 2024 to September 2024?",
-            "What was the goal difference for FC Barcelona in matches from March 2024 to September 2024?",
-            "What is the correlation coefficient between average possession time and goal difference for FC Barcelona during this period?"
+            "What are the predicted temperature changes in Iowa from March 2024 to September 2024?",
+            "What is the current corn production level in Iowa?",
+            "What adaptation strategies are suggested for corn production in Iowa?",
+            "How will temperature changes impact corn production?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact on Biodiversity",
+      "Queries": [
+        {
+          "decomposable_query": "What is the projected impact of climate change on the population of polar bears in the Arctic from March 2024 to September 2024, and how does it compare to the population trends over the last decade?",
+          "atomic_queries": [
+            "What is the projected population of polar bears in the Arctic for March 2024?",
+            "What is the projected population of polar bears in the Arctic for September 2024?",
+            "What were the population trends of polar bears in the Arctic over the last decade?",
+            "How does the projected impact compare to historical trends?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the changes in sea temperature from March 2024 to September 2024 affect coral reef health in the Great Barrier Reef, and what conservation efforts are recommended?",
+          "atomic_queries": [
+            "What are the projected sea temperature changes in the Great Barrier Reef from March 2024 to September 2024?",
+            "What is the current health status of coral reefs in the Great Barrier Reef?",
+            "What conservation efforts are recommended for coral reefs?",
+            "How will sea temperature changes impact coral reef health?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Economic Impact of Climate Change",
+      "Queries": [
+        {
+          "decomposable_query": "What is the estimated economic cost of climate change-related disasters in California from March 2024 to September 2024, and how does it compare to the costs in the same period over the past five years?",
+          "atomic_queries": [
+            "What is the estimated economic cost of climate change-related disasters in California for March 2024?",
+            "What is the estimated economic cost for September 2024?",
+            "What were the economic costs of climate change-related disasters in California over the past five years?",
+            "How does the estimated cost compare to historical costs?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the projected changes in climate from March 2024 to September 2024 affect the tourism industry in the Maldives, and what strategies are suggested to mitigate negative impacts?",
+          "atomic_queries": [
+            "What are the projected climate changes in the Maldives from March 2024 to September 2024?",
+            "What is the current status of the tourism industry in the Maldives?",
+            "What strategies are suggested to mitigate negative impacts on tourism?",
+            "How will climate changes affect the tourism industry?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Water Resource Management",
+      "Queries": [
+        {
+          "decomposable_query": "What are the projected changes in water availability in the Colorado River Basin from March 2024 to September 2024, and how do they compare to historical averages?",
+          "atomic_queries": [
+            "What is the projected water availability in the Colorado River Basin for March 2024?",
+            "What is the projected water availability for September 2024?",
+            "What were the historical averages of water availability in the Colorado River Basin?",
+            "How do the projected changes compare to historical averages?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the predicted precipitation changes from March 2024 to September 2024 affect water management strategies in Cape Town, and what adaptations are recommended?",
+          "atomic_queries": [
+            "What are the predicted precipitation changes in Cape Town from March 2024 to September 2024?",
+            "What is the current water management strategy in Cape Town?",
+            "What adaptations are recommended for water management?",
+            "How will precipitation changes affect water management strategies?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact on Human Health",
+      "Queries": [
+        {
+          "decomposable_query": "What is the projected increase in heat-related illnesses in Phoenix from March 2024 to September 2024, and how does it compare to the previous five years?",
+          "atomic_queries": [
+            "What is the projected number of heat-related illnesses in Phoenix for March 2024?",
+            "What is the projected number for September 2024?",
+            "What were the numbers of heat-related illnesses in Phoenix over the past five years?",
+            "How does the projected increase compare to historical data?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the changes in air quality from March 2024 to September 2024 affect respiratory health in Beijing, and what measures are recommended to mitigate these effects?",
+          "atomic_queries": [
+            "What are the projected changes in air quality in Beijing from March 2024 to September 2024?",
+            "What is the current status of respiratory health in Beijing?",
+            "What measures are recommended to mitigate effects on respiratory health?",
+            "How will air quality changes affect respiratory health?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Energy Consumption Patterns",
+      "Queries": [
+        {
+          "decomposable_query": "What is the projected change in energy consumption in Texas from March 2024 to September 2024 due to climate change, and how does it compare to the same period in the past decade?",
+          "atomic_queries": [
+            "What is the projected energy consumption in Texas for March 2024?",
+            "What is the projected energy consumption for September 2024?",
+            "What were the energy consumption patterns in Texas over the past decade?",
+            "How does the projected change compare to historical patterns?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the predicted temperature changes from March 2024 to September 2024 affect renewable energy production in Germany, and what adjustments are recommended?",
+          "atomic_queries": [
+            "What are the predicted temperature changes in Germany from March 2024 to September 2024?",
+            "What is the current status of renewable energy production in Germany?",
+            "What adjustments are recommended for renewable energy production?",
+            "How will temperature changes affect renewable energy production?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact on Infrastructure",
+      "Queries": [
+        {
+          "decomposable_query": "What is the projected impact of climate change on transportation infrastructure in Florida from March 2024 to September 2024, and how does it compare to the previous decade?",
+          "atomic_queries": [
+            "What is the projected impact on transportation infrastructure in Florida for March 2024?",
+            "What is the projected impact for September 2024?",
+            "What were the impacts on transportation infrastructure in Florida over the past decade?",
+            "How does the projected impact compare to historical data?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the predicted sea level rise from March 2024 to September 2024 affect coastal infrastructure in Bangladesh, and what are the recommended adaptation strategies?",
+          "atomic_queries": [
+            "What is the predicted sea level rise in Bangladesh from March 2024 to September 2024?",
+            "What is the current status of coastal infrastructure in Bangladesh?",
+            "What adaptation strategies are recommended for coastal infrastructure?",
+            "How will sea level rise affect coastal infrastructure?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact on Fisheries",
+      "Queries": [
+        {
+          "decomposable_query": "What is the projected impact of climate change on fish populations in the North Sea from March 2024 to September 2024, and how does it compare to the trends over the past decade?",
+          "atomic_queries": [
+            "What is the projected fish population in the North Sea for March 2024?",
+            "What is the projected fish population for September 2024?",
+            "What were the fish population trends in the North Sea over the past decade?",
+            "How does the projected impact compare to historical trends?"
+          ]
+        },
+        {
+          "decomposable_query": "How will the changes in ocean temperature from March 2024 to September 2024 affect the fishing industry in Japan, and what strategies are suggested to adapt to these changes?",
+          "atomic_queries": [
+            "What are the projected ocean temperature changes in Japan from March 2024 to September 2024?",
+            "What is the current status of the fishing industry in Japan?",
+            "What strategies are suggested to adapt to changes in the fishing industry?",
+            "How will ocean temperature changes affect the fishing industry?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Healthcare Resource Allocation": [
+    {
+      "subtopic": "Hospital Bed Utilization",
+      "Queries": [
+        {
+          "decomposable_query": "What was the average hospital bed occupancy rate in New York City hospitals from March 2024 to September 2024, and how did it compare to the national average during the same period?",
+          "atomic_queries": [
+            "What was the hospital bed occupancy rate in New York City hospitals in March 2024?",
+            "What was the hospital bed occupancy rate in New York City hospitals in September 2024?",
+            "What was the national average hospital bed occupancy rate in March 2024?",
+            "What was the national average hospital bed occupancy rate in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the availability of ICU beds in Los Angeles change from April 2024 to July 2024, and what factors contributed to this change?",
+          "atomic_queries": [
+            "What was the number of available ICU beds in Los Angeles in April 2024?",
+            "What was the number of available ICU beds in Los Angeles in July 2024?",
+            "What were the major factors affecting ICU bed availability in Los Angeles during this period?",
+            "How did patient admission rates impact ICU bed availability in Los Angeles from April to July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Medical Staff Allocation",
+      "Queries": [
+        {
+          "decomposable_query": "What was the ratio of nurses to patients in Chicago hospitals in June 2024, and how did it affect patient care outcomes?",
+          "atomic_queries": [
+            "What was the total number of nurses in Chicago hospitals in June 2024?",
+            "What was the total number of patients in Chicago hospitals in June 2024?",
+            "What were the patient care outcomes in Chicago hospitals in June 2024?",
+            "How did the nurse-to-patient ratio correlate with patient care outcomes in Chicago in June 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the distribution of doctors across rural and urban areas in Texas change from May 2024 to August 2024, and what were the implications for healthcare access?",
+          "atomic_queries": [
+            "What was the number of doctors in rural areas of Texas in May 2024?",
+            "What was the number of doctors in urban areas of Texas in May 2024?",
+            "What was the number of doctors in rural areas of Texas in August 2024?",
+            "What was the number of doctors in urban areas of Texas in August 2024?",
+            "What were the implications of these changes for healthcare access in Texas?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Pharmaceutical Supply Chain",
+      "Queries": [
+        {
+          "decomposable_query": "What were the main disruptions in the pharmaceutical supply chain in the United States from March 2024 to September 2024, and how did they affect drug availability?",
+          "atomic_queries": [
+            "What were the key disruptions in the pharmaceutical supply chain in March 2024?",
+            "What were the key disruptions in the pharmaceutical supply chain in September 2024?",
+            "How did these disruptions affect drug availability in the United States during this period?",
+            "What were the most affected drugs due to supply chain disruptions from March to September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the cost of importing pharmaceuticals into the UK change from April 2024 to July 2024, and what impact did this have on local drug prices?",
+          "atomic_queries": [
+            "What was the cost of importing pharmaceuticals into the UK in April 2024?",
+            "What was the cost of importing pharmaceuticals into the UK in July 2024?",
+            "How did changes in import costs affect local drug prices in the UK from April to July 2024?",
+            "What were the specific drugs most affected by these price changes?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Telemedicine Adoption",
+      "Queries": [
+        {
+          "decomposable_query": "What was the growth rate of telemedicine consultations in California from March 2024 to September 2024, and how did it compare to traditional in-person visits?",
+          "atomic_queries": [
+            "What was the number of telemedicine consultations in California in March 2024?",
+            "What was the number of telemedicine consultations in California in September 2024?",
+            "What was the number of traditional in-person visits in California in March 2024?",
+            "What was the number of traditional in-person visits in California in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did patient satisfaction with telemedicine services in New York change from May 2024 to August 2024, and what factors influenced this change?",
+          "atomic_queries": [
+            "What was the patient satisfaction rate with telemedicine services in New York in May 2024?",
+            "What was the patient satisfaction rate with telemedicine services in New York in August 2024?",
+            "What factors influenced patient satisfaction with telemedicine services in New York during this period?",
+            "How did these factors contribute to changes in satisfaction rates?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Vaccine Distribution Efficiency",
+      "Queries": [
+        {
+          "decomposable_query": "What was the average time taken to distribute vaccines from central warehouses to local clinics in Florida from March 2024 to September 2024, and how did it impact vaccination rates?",
+          "atomic_queries": [
+            "What was the average distribution time for vaccines in Florida in March 2024?",
+            "What was the average distribution time for vaccines in Florida in September 2024?",
+            "What were the vaccination rates in Florida in March 2024?",
+            "What were the vaccination rates in Florida in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the efficiency of vaccine distribution in rural areas of India change from April 2024 to July 2024, and what were the key challenges faced?",
+          "atomic_queries": [
+            "What was the efficiency of vaccine distribution in rural areas of India in April 2024?",
+            "What was the efficiency of vaccine distribution in rural areas of India in July 2024?",
+            "What were the key challenges faced in vaccine distribution in rural areas of India during this period?",
+            "How did these challenges affect distribution efficiency?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Healthcare Cost Analysis",
+      "Queries": [
+        {
+          "decomposable_query": "What was the average cost of healthcare per capita in Germany from March 2024 to September 2024, and how did it compare to the previous year?",
+          "atomic_queries": [
+            "What was the average cost of healthcare per capita in Germany in March 2024?",
+            "What was the average cost of healthcare per capita in Germany in September 2024?",
+            "What was the average cost of healthcare per capita in Germany from March to September 2023?",
+            "How did the costs in 2024 compare to those in 2023?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the cost of surgical procedures in private hospitals in Australia change from May 2024 to August 2024, and what factors contributed to these changes?",
+          "atomic_queries": [
+            "What was the cost of surgical procedures in private hospitals in Australia in May 2024?",
+            "What was the cost of surgical procedures in private hospitals in Australia in August 2024?",
+            "What factors contributed to changes in surgical procedure costs in Australia during this period?",
+            "How did these factors specifically impact the cost changes?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Emergency Response Times",
+      "Queries": [
+        {
+          "decomposable_query": "What was the average emergency response time in urban areas of Canada from March 2024 to September 2024, and how did it compare to rural areas?",
+          "atomic_queries": [
+            "What was the average emergency response time in urban areas of Canada in March 2024?",
+            "What was the average emergency response time in urban areas of Canada in September 2024?",
+            "What was the average emergency response time in rural areas of Canada in March 2024?",
+            "What was the average emergency response time in rural areas of Canada in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did emergency response times in London change from April 2024 to July 2024, and what were the main factors influencing these changes?",
+          "atomic_queries": [
+            "What was the emergency response time in London in April 2024?",
+            "What was the emergency response time in London in July 2024?",
+            "What were the main factors influencing emergency response times in London during this period?",
+            "How did these factors specifically affect the response times?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Mental Health Services Demand",
+      "Queries": [
+        {
+          "decomposable_query": "What was the increase in demand for mental health services in the United States from March 2024 to September 2024, and how did it vary by state?",
+          "atomic_queries": [
+            "What was the demand for mental health services in the United States in March 2024?",
+            "What was the demand for mental health services in the United States in September 2024?",
+            "How did the demand for mental health services vary by state in March 2024?",
+            "How did the demand for mental health services vary by state in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the availability of mental health professionals in Canada change from May 2024 to August 2024, and what impact did this have on service delivery?",
+          "atomic_queries": [
+            "What was the number of mental health professionals in Canada in May 2024?",
+            "What was the number of mental health professionals in Canada in August 2024?",
+            "What impact did changes in the number of mental health professionals have on service delivery in Canada during this period?",
+            "What were the specific areas most affected by these changes?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Health Insurance Coverage",
+      "Queries": [
+        {
+          "decomposable_query": "What was the percentage of uninsured individuals in the United States from March 2024 to September 2024, and how did it compare to the previous year?",
+          "atomic_queries": [
+            "What was the percentage of uninsured individuals in the United States in March 2024?",
+            "What was the percentage of uninsured individuals in the United States in September 2024?",
+            "What was the percentage of uninsured individuals in the United States from March to September 2023?",
+            "How did the uninsured rates in 2024 compare to those in 2023?"
+          ]
+        },
+        {
+          "decomposable_query": "How did changes in health insurance policies in France from April 2024 to July 2024 affect coverage rates and healthcare access?",
+          "atomic_queries": [
+            "What were the changes in health insurance policies in France in April 2024?",
+            "What were the changes in health insurance policies in France in July 2024?",
+            "How did these policy changes affect health insurance coverage rates in France?",
+            "What impact did these changes have on healthcare access in France?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Urban Traffic Flow Optimization": [
+    {
+      "subtopic": "Impact of Traffic Signal Timing on Congestion",
+      "Queries": [
+        {
+          "decomposable_query": "How does adjusting traffic signal timing at major intersections in downtown Los Angeles from March 2024 to September 2024 affect average vehicle wait times and congestion levels?",
+          "atomic_queries": [
+            "What are the current traffic signal timings at major intersections in downtown Los Angeles as of March 2024?",
+            "What are the average vehicle wait times at these intersections in March 2024?",
+            "What changes were made to the traffic signal timings by September 2024?",
+            "What are the average vehicle wait times at these intersections in September 2024?",
+            "How do congestion levels in March 2024 compare to those in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the correlation between traffic signal timing adjustments and the frequency of traffic jams in New York City from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the traffic signal timings in New York City in April 2024?",
+            "How frequently did traffic jams occur in April 2024?",
+            "What adjustments were made to traffic signal timings by August 2024?",
+            "How frequently did traffic jams occur in August 2024?",
+            "What is the statistical correlation between signal timing changes and traffic jam frequency?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Effect of Public Transportation on Traffic Flow",
+      "Queries": [
+        {
+          "decomposable_query": "How has the introduction of new bus routes in Chicago from May 2024 to September 2024 impacted traffic congestion during peak hours?",
+          "atomic_queries": [
+            "What new bus routes were introduced in Chicago in May 2024?",
+            "What were the traffic congestion levels during peak hours in May 2024?",
+            "What are the traffic congestion levels during peak hours in September 2024?",
+            "How has the ridership of the new bus routes changed from May 2024 to September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the effect of increased subway frequency on road traffic in Boston from March 2024 to July 2024?",
+          "atomic_queries": [
+            "What was the subway frequency in Boston in March 2024?",
+            "What were the road traffic levels in March 2024?",
+            "What changes were made to subway frequency by July 2024?",
+            "What were the road traffic levels in July 2024?",
+            "How does the change in subway frequency correlate with road traffic levels?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Influence of Weather Conditions on Traffic Patterns",
+      "Queries": [
+        {
+          "decomposable_query": "How do varying weather conditions from March 2024 to September 2024 affect traffic flow in Seattle?",
+          "atomic_queries": [
+            "What were the weather conditions in Seattle in March 2024?",
+            "What were the traffic flow patterns in March 2024?",
+            "What were the weather conditions in Seattle in September 2024?",
+            "What were the traffic flow patterns in September 2024?",
+            "What is the correlation between weather conditions and traffic flow changes?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the impact of heavy rainfall on traffic congestion in Miami from April 2024 to August 2024?",
+          "atomic_queries": [
+            "How many days of heavy rainfall occurred in Miami in April 2024?",
+            "What were the traffic congestion levels during heavy rainfall in April 2024?",
+            "How many days of heavy rainfall occurred in Miami in August 2024?",
+            "What were the traffic congestion levels during heavy rainfall in August 2024?",
+            "What is the correlation between heavy rainfall and traffic congestion levels?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Role of Ride-Sharing Services in Traffic Dynamics",
+      "Queries": [
+        {
+          "decomposable_query": "How has the increase in ride-sharing services from March 2024 to September 2024 influenced traffic congestion in San Francisco?",
+          "atomic_queries": [
+            "What was the number of ride-sharing vehicles operating in San Francisco in March 2024?",
+            "What were the traffic congestion levels in March 2024?",
+            "What was the number of ride-sharing vehicles operating in San Francisco in September 2024?",
+            "What were the traffic congestion levels in September 2024?",
+            "What is the correlation between the number of ride-sharing vehicles and traffic congestion levels?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the effect of ride-sharing service promotions on traffic patterns in Los Angeles from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What ride-sharing service promotions were offered in Los Angeles in April 2024?",
+            "What were the traffic patterns in April 2024?",
+            "What ride-sharing service promotions were offered in Los Angeles in August 2024?",
+            "What were the traffic patterns in August 2024?",
+            "How do ride-sharing promotions correlate with changes in traffic patterns?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Road Construction on Traffic Flow",
+      "Queries": [
+        {
+          "decomposable_query": "How has ongoing road construction from March 2024 to September 2024 affected traffic flow in downtown Houston?",
+          "atomic_queries": [
+            "What road construction projects were ongoing in downtown Houston in March 2024?",
+            "What were the traffic flow patterns in March 2024?",
+            "What road construction projects were ongoing in downtown Houston in September 2024?",
+            "What were the traffic flow patterns in September 2024?",
+            "What is the correlation between road construction and changes in traffic flow?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the impact of highway expansion projects on traffic congestion in Atlanta from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What highway expansion projects were underway in Atlanta in April 2024?",
+            "What were the traffic congestion levels in April 2024?",
+            "What highway expansion projects were completed by August 2024?",
+            "What were the traffic congestion levels in August 2024?",
+            "How do highway expansion projects correlate with changes in traffic congestion?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Optimization of Traffic Flow through Smart Technologies",
+      "Queries": [
+        {
+          "decomposable_query": "How have smart traffic lights implemented from March 2024 to September 2024 improved traffic flow in San Diego?",
+          "atomic_queries": [
+            "What smart traffic light technologies were implemented in San Diego in March 2024?",
+            "What were the traffic flow patterns in March 2024?",
+            "What improvements were made to smart traffic light technologies by September 2024?",
+            "What were the traffic flow patterns in September 2024?",
+            "What is the correlation between smart traffic light implementation and traffic flow improvements?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the effect of AI-driven traffic management systems on congestion in Denver from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What AI-driven traffic management systems were implemented in Denver in April 2024?",
+            "What were the congestion levels in April 2024?",
+            "What improvements were made to AI-driven systems by August 2024?",
+            "What were the congestion levels in August 2024?",
+            "How do AI-driven traffic management systems correlate with changes in congestion levels?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Influence of Urban Planning on Traffic Patterns",
+      "Queries": [
+        {
+          "decomposable_query": "How has the redesign of urban spaces from March 2024 to September 2024 affected traffic patterns in Portland?",
+          "atomic_queries": [
+            "What urban redesign projects were initiated in Portland in March 2024?",
+            "What were the traffic patterns in March 2024?",
+            "What urban redesign projects were completed by September 2024?",
+            "What were the traffic patterns in September 2024?",
+            "What is the correlation between urban redesign and changes in traffic patterns?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the impact of new residential developments on traffic congestion in Austin from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What new residential developments were initiated in Austin in April 2024?",
+            "What were the traffic congestion levels in April 2024?",
+            "What new residential developments were completed by August 2024?",
+            "What were the traffic congestion levels in August 2024?",
+            "How do new residential developments correlate with changes in traffic congestion?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Effect of Traffic Regulations on Flow Efficiency",
+      "Queries": [
+        {
+          "decomposable_query": "How have new traffic regulations from March 2024 to September 2024 improved flow efficiency in Washington D.C.?",
+          "atomic_queries": [
+            "What new traffic regulations were implemented in Washington D.C. in March 2024?",
+            "What was the traffic flow efficiency in March 2024?",
+            "What changes were made to traffic regulations by September 2024?",
+            "What was the traffic flow efficiency in September 2024?",
+            "What is the correlation between traffic regulations and flow efficiency improvements?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the effect of speed limit changes on traffic congestion in Philadelphia from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What speed limit changes were implemented in Philadelphia in April 2024?",
+            "What were the traffic congestion levels in April 2024?",
+            "What speed limit changes were made by August 2024?",
+            "What were the traffic congestion levels in August 2024?",
+            "How do speed limit changes correlate with changes in traffic congestion?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Analysis of Traffic Flow Patterns Using Big Data",
+      "Queries": [
+        {
+          "decomposable_query": "How has the analysis of big data from March 2024 to September 2024 improved traffic flow predictions in San Antonio?",
+          "atomic_queries": [
+            "What big data analysis techniques were used in San Antonio in March 2024?",
+            "What were the traffic flow predictions in March 2024?",
+            "What improvements were made to big data analysis techniques by September 2024?",
+            "What were the traffic flow predictions in September 2024?",
+            "What is the correlation between big data analysis and improvements in traffic flow predictions?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the impact of real-time data analytics on traffic management in Phoenix from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What real-time data analytics systems were implemented in Phoenix in April 2024?",
+            "What were the traffic management strategies in April 2024?",
+            "What improvements were made to real-time data analytics systems by August 2024?",
+            "What were the traffic management strategies in August 2024?",
+            "How do real-time data analytics systems correlate with changes in traffic management strategies?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Supply Chain Management": [
+    {
+      "subtopic": "Inventory Optimization",
+      "Queries": [
+        {
+          "decomposable_query": "How did the inventory turnover ratio for Company X change from March 2024 to September 2024, and what were the key factors influencing this change?",
+          "atomic_queries": [
+            "What was Company X's inventory turnover ratio in March 2024?",
+            "What was Company X's inventory turnover ratio in September 2024?",
+            "What were the major supply chain disruptions faced by Company X between March 2024 and September 2024?",
+            "How did changes in demand affect Company X's inventory levels during this period?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of lead time variability on the safety stock levels of Company Y from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What was the average lead time for Company Y in April 2024?",
+            "What was the average lead time for Company Y in August 2024?",
+            "How did Company Y calculate its safety stock levels in April 2024?",
+            "How did Company Y calculate its safety stock levels in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Supplier Risk Assessment",
+      "Queries": [
+        {
+          "decomposable_query": "What were the top three risks associated with Supplier A for Company Z from May 2024 to September 2024, and how did these risks affect the supply chain performance?",
+          "atomic_queries": [
+            "What were the identified risks for Supplier A in May 2024?",
+            "What were the identified risks for Supplier A in September 2024?",
+            "How did Supplier A's risks impact Company Z's supply chain performance in May 2024?",
+            "How did Supplier A's risks impact Company Z's supply chain performance in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did geopolitical tensions in Region B affect the risk profile of suppliers in that region for Company Y from March 2024 to July 2024?",
+          "atomic_queries": [
+            "What were the geopolitical tensions in Region B in March 2024?",
+            "What were the geopolitical tensions in Region B in July 2024?",
+            "How did these tensions affect the risk profile of suppliers in Region B in March 2024?",
+            "How did these tensions affect the risk profile of suppliers in Region B in July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Demand Forecasting",
+      "Queries": [
+        {
+          "decomposable_query": "What was the accuracy of Company X's demand forecasts from March 2024 to September 2024, and what factors contributed to any discrepancies?",
+          "atomic_queries": [
+            "What was Company X's demand forecast for March 2024?",
+            "What was the actual demand for Company X in March 2024?",
+            "What was Company X's demand forecast for September 2024?",
+            "What was the actual demand for Company X in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did seasonal trends affect the demand forecasting accuracy for Company Y from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the seasonal trends affecting Company Y in April 2024?",
+            "What were the seasonal trends affecting Company Y in August 2024?",
+            "How accurate was Company Y's demand forecast in April 2024?",
+            "How accurate was Company Y's demand forecast in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Logistics and Transportation",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of fuel price fluctuations on the transportation costs for Company Z from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the average fuel prices in March 2024?",
+            "What were the average fuel prices in September 2024?",
+            "What were Company Z's transportation costs in March 2024?",
+            "What were Company Z's transportation costs in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did changes in transportation regulations affect Company Y's logistics efficiency from May 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the transportation regulations affecting Company Y in May 2024?",
+            "What were the transportation regulations affecting Company Y in August 2024?",
+            "How did these regulations impact Company Y's logistics efficiency in May 2024?",
+            "How did these regulations impact Company Y's logistics efficiency in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Sustainability in Supply Chains",
+      "Queries": [
+        {
+          "decomposable_query": "What were the key sustainability initiatives implemented by Company X in its supply chain from March 2024 to September 2024, and what were their impacts?",
+          "atomic_queries": [
+            "What sustainability initiatives did Company X implement in March 2024?",
+            "What sustainability initiatives did Company X implement in September 2024?",
+            "What were the impacts of these initiatives on Company X's supply chain in March 2024?",
+            "What were the impacts of these initiatives on Company X's supply chain in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did Company Y's carbon footprint change from April 2024 to August 2024, and what measures were taken to address it?",
+          "atomic_queries": [
+            "What was Company Y's carbon footprint in April 2024?",
+            "What was Company Y's carbon footprint in August 2024?",
+            "What measures did Company Y take to reduce its carbon footprint in April 2024?",
+            "What measures did Company Y take to reduce its carbon footprint in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Technology Integration",
+      "Queries": [
+        {
+          "decomposable_query": "What were the effects of implementing AI-driven analytics on Company Z's supply chain efficiency from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What AI-driven analytics tools did Company Z implement in March 2024?",
+            "What AI-driven analytics tools did Company Z implement in September 2024?",
+            "How did these tools affect Company Z's supply chain efficiency in March 2024?",
+            "How did these tools affect Company Z's supply chain efficiency in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the adoption of blockchain technology impact the traceability of products in Company Y's supply chain from May 2024 to August 2024?",
+          "atomic_queries": [
+            "What blockchain technology did Company Y adopt in May 2024?",
+            "What blockchain technology did Company Y adopt in August 2024?",
+            "How did this technology impact product traceability in Company Y's supply chain in May 2024?",
+            "How did this technology impact product traceability in Company Y's supply chain in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Cost Management",
+      "Queries": [
+        {
+          "decomposable_query": "What strategies did Company X employ to manage supply chain costs from March 2024 to September 2024, and how effective were they?",
+          "atomic_queries": [
+            "What cost management strategies did Company X implement in March 2024?",
+            "What cost management strategies did Company X implement in September 2024?",
+            "How effective were these strategies in reducing costs in March 2024?",
+            "How effective were these strategies in reducing costs in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did fluctuations in raw material prices affect Company Y's supply chain costs from April 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the raw material prices in April 2024?",
+            "What were the raw material prices in August 2024?",
+            "How did these price fluctuations impact Company Y's supply chain costs in April 2024?",
+            "How did these price fluctuations impact Company Y's supply chain costs in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Global Supply Chain Dynamics",
+      "Queries": [
+        {
+          "decomposable_query": "How did international trade policies affect Company Z's supply chain operations from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What international trade policies were in effect in March 2024?",
+            "What international trade policies were in effect in September 2024?",
+            "How did these policies impact Company Z's supply chain operations in March 2024?",
+            "How did these policies impact Company Z's supply chain operations in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What were the effects of currency exchange rate fluctuations on Company Y's global supply chain costs from May 2024 to August 2024?",
+          "atomic_queries": [
+            "What were the currency exchange rates in May 2024?",
+            "What were the currency exchange rates in August 2024?",
+            "How did these exchange rate fluctuations impact Company Y's global supply chain costs in May 2024?",
+            "How did these exchange rate fluctuations impact Company Y's global supply chain costs in August 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Crisis Management and Resilience",
+      "Queries": [
+        {
+          "decomposable_query": "What measures did Company X take to enhance supply chain resilience in response to disruptions from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What supply chain disruptions did Company X face in March 2024?",
+            "What supply chain disruptions did Company X face in September 2024?",
+            "What resilience measures did Company X implement in March 2024?",
+            "What resilience measures did Company X implement in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did Company Y's crisis management strategies evolve from April 2024 to August 2024 in response to global supply chain challenges?",
+          "atomic_queries": [
+            "What global supply chain challenges did Company Y face in April 2024?",
+            "What global supply chain challenges did Company Y face in August 2024?",
+            "What crisis management strategies did Company Y use in April 2024?",
+            "What crisis management strategies did Company Y use in August 2024?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Energy Consumption Forecasting": [
+    {
+      "subtopic": "Impact of Renewable Energy Integration",
+      "Queries": [
+        {
+          "decomposable_query": "How did the integration of solar energy in California's grid affect the overall energy consumption from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the total energy consumption in California in March 2024?",
+            "What was the total energy consumption in California in September 2024?",
+            "How much solar energy was integrated into California's grid in March 2024?",
+            "How much solar energy was integrated into California's grid in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What percentage of California's energy consumption was met by wind energy from March 2024 to September 2024, and how did it change over this period?",
+          "atomic_queries": [
+            "What was the total energy consumption in California in March 2024?",
+            "What was the total energy consumption in California in September 2024?",
+            "How much wind energy was consumed in California in March 2024?",
+            "How much wind energy was consumed in California in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Seasonal Variations in Energy Demand",
+      "Queries": [
+        {
+          "decomposable_query": "What were the peak energy demand months in Texas from March 2024 to September 2024, and how did they compare to the same period in 2023?",
+          "atomic_queries": [
+            "What was the energy demand in Texas for each month from March 2024 to September 2024?",
+            "What was the energy demand in Texas for each month from March 2023 to September 2023?",
+            "Which months had the highest energy demand in 2024?",
+            "Which months had the highest energy demand in 2023?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the average daily energy consumption in New York City vary between weekdays and weekends from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average daily energy consumption on weekdays in New York City from March 2024 to September 2024?",
+            "What was the average daily energy consumption on weekends in New York City from March 2024 to September 2024?",
+            "How many weekdays were there from March 2024 to September 2024?",
+            "How many weekends were there from March 2024 to September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Influence of Economic Activity on Energy Use",
+      "Queries": [
+        {
+          "decomposable_query": "How did changes in industrial output in Germany affect energy consumption from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the industrial output in Germany in March 2024?",
+            "What was the industrial output in Germany in September 2024?",
+            "What was the energy consumption in Germany in March 2024?",
+            "What was the energy consumption in Germany in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What correlation exists between GDP growth and energy consumption in Japan from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was Japan's GDP growth rate from March 2024 to September 2024?",
+            "What was the energy consumption in Japan from March 2024 to September 2024?",
+            "How did Japan's GDP growth rate compare to the energy consumption growth rate?",
+            "What were the monthly GDP figures for Japan from March 2024 to September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Technological Advancements in Energy Efficiency",
+      "Queries": [
+        {
+          "decomposable_query": "What impact did the adoption of smart grid technologies have on energy efficiency in the UK from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What smart grid technologies were adopted in the UK from March 2024 to September 2024?",
+            "What was the energy efficiency rate in the UK in March 2024?",
+            "What was the energy efficiency rate in the UK in September 2024?",
+            "How did energy efficiency change with the adoption of smart grid technologies?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the implementation of energy-efficient appliances in households affect residential energy consumption in France from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What energy-efficient appliances were implemented in French households from March 2024 to September 2024?",
+            "What was the residential energy consumption in France in March 2024?",
+            "What was the residential energy consumption in France in September 2024?",
+            "How did the use of energy-efficient appliances impact overall residential energy consumption?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Climate Change on Energy Demand",
+      "Queries": [
+        {
+          "decomposable_query": "How did temperature anomalies affect energy demand in Australia from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the temperature anomalies in Australia from March 2024 to September 2024?",
+            "What was the energy demand in Australia in March 2024?",
+            "What was the energy demand in Australia in September 2024?",
+            "How did temperature anomalies correlate with changes in energy demand?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of increased frequency of heatwaves on energy consumption in India from March 2024 to September 2024?",
+          "atomic_queries": [
+            "How many heatwaves occurred in India from March 2024 to September 2024?",
+            "What was the energy consumption in India during each heatwave?",
+            "What was the average energy consumption in India in March 2024?",
+            "What was the average energy consumption in India in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Policy Changes and Energy Consumption",
+      "Queries": [
+        {
+          "decomposable_query": "What effect did new energy policies have on industrial energy consumption in China from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What new energy policies were implemented in China from March 2024 to September 2024?",
+            "What was the industrial energy consumption in China in March 2024?",
+            "What was the industrial energy consumption in China in September 2024?",
+            "How did these policies impact industrial energy consumption?"
+          ]
+        },
+        {
+          "decomposable_query": "How did subsidies for renewable energy projects influence energy consumption patterns in Brazil from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What renewable energy subsidies were introduced in Brazil from March 2024 to September 2024?",
+            "What was the energy consumption pattern in Brazil in March 2024?",
+            "What was the energy consumption pattern in Brazil in September 2024?",
+            "How did these subsidies affect overall energy consumption patterns?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Energy Consumption in Transportation",
+      "Queries": [
+        {
+          "decomposable_query": "How did the adoption of electric vehicles impact energy consumption in urban areas of Canada from March 2024 to September 2024?",
+          "atomic_queries": [
+            "How many electric vehicles were adopted in urban areas of Canada from March 2024 to September 2024?",
+            "What was the energy consumption in urban areas of Canada in March 2024?",
+            "What was the energy consumption in urban areas of Canada in September 2024?",
+            "How did the adoption of electric vehicles affect overall energy consumption?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of increased public transportation usage on energy consumption in Germany from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the increase in public transportation usage in Germany from March 2024 to September 2024?",
+            "What was the energy consumption in Germany in March 2024?",
+            "What was the energy consumption in Germany in September 2024?",
+            "How did increased public transportation usage impact energy consumption?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Energy Consumption in Agriculture",
+      "Queries": [
+        {
+          "decomposable_query": "How did the use of energy-efficient irrigation systems affect energy consumption in agriculture in Spain from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What energy-efficient irrigation systems were used in Spain from March 2024 to September 2024?",
+            "What was the energy consumption in agriculture in Spain in March 2024?",
+            "What was the energy consumption in agriculture in Spain in September 2024?",
+            "How did these systems impact overall agricultural energy consumption?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of renewable energy adoption in agricultural practices on energy consumption in Italy from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What renewable energy sources were adopted in Italian agriculture from March 2024 to September 2024?",
+            "What was the energy consumption in agriculture in Italy in March 2024?",
+            "What was the energy consumption in agriculture in Italy in September 2024?",
+            "How did renewable energy adoption affect agricultural energy consumption?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Energy Consumption in Residential Buildings",
+      "Queries": [
+        {
+          "decomposable_query": "How did the implementation of smart home technologies influence residential energy consumption in Sweden from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What smart home technologies were implemented in Sweden from March 2024 to September 2024?",
+            "What was the residential energy consumption in Sweden in March 2024?",
+            "What was the residential energy consumption in Sweden in September 2024?",
+            "How did these technologies impact overall residential energy consumption?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of energy-efficient building codes on residential energy consumption in the Netherlands from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What energy-efficient building codes were implemented in the Netherlands from March 2024 to September 2024?",
+            "What was the residential energy consumption in the Netherlands in March 2024?",
+            "What was the residential energy consumption in the Netherlands in September 2024?",
+            "How did these building codes affect overall residential energy consumption?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Epidemiological Modeling": [
+    {
+      "subtopic": "Infection Rate Analysis",
+      "Queries": [
+        {
+          "decomposable_query": "What was the average infection rate of COVID-19 in New York City from March 2024 to September 2024, and how did it compare to the infection rate in Los Angeles over the same period?",
+          "atomic_queries": [
+            "What was the infection rate of COVID-19 in New York City in March 2024?",
+            "What was the infection rate of COVID-19 in New York City in September 2024?",
+            "What was the infection rate of COVID-19 in Los Angeles in March 2024?",
+            "What was the infection rate of COVID-19 in Los Angeles in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the weekly infection rate of influenza in Chicago change from April 2024 to July 2024, and what was the peak week?",
+          "atomic_queries": [
+            "What was the weekly infection rate of influenza in Chicago in April 2024?",
+            "What was the weekly infection rate of influenza in Chicago in July 2024?",
+            "Which week had the highest infection rate of influenza in Chicago between April 2024 and July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Vaccine Efficacy Studies",
+      "Queries": [
+        {
+          "decomposable_query": "What was the efficacy rate of the new COVID-19 vaccine in reducing hospitalizations in Texas from March 2024 to September 2024, and how did it compare to the previous vaccine?",
+          "atomic_queries": [
+            "What was the hospitalization rate for COVID-19 in Texas for those vaccinated with the new vaccine in March 2024?",
+            "What was the hospitalization rate for COVID-19 in Texas for those vaccinated with the new vaccine in September 2024?",
+            "What was the hospitalization rate for COVID-19 in Texas for those vaccinated with the previous vaccine in March 2024?",
+            "What was the hospitalization rate for COVID-19 in Texas for those vaccinated with the previous vaccine in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How effective was the influenza vaccine in preventing cases in Florida from May 2024 to August 2024, and what was the percentage reduction in cases compared to the same period in 2023?",
+          "atomic_queries": [
+            "What was the number of influenza cases in Florida for those vaccinated in May 2024?",
+            "What was the number of influenza cases in Florida for those vaccinated in August 2024?",
+            "What was the number of influenza cases in Florida for those vaccinated in May 2023?",
+            "What was the number of influenza cases in Florida for those vaccinated in August 2023?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Disease Spread Simulation",
+      "Queries": [
+        {
+          "decomposable_query": "What were the projected versus actual spread rates of measles in California from March 2024 to September 2024, and what factors contributed to any discrepancies?",
+          "atomic_queries": [
+            "What was the projected spread rate of measles in California in March 2024?",
+            "What was the actual spread rate of measles in California in March 2024?",
+            "What was the projected spread rate of measles in California in September 2024?",
+            "What was the actual spread rate of measles in California in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the simulated spread of dengue fever in Miami compare to the actual spread from April 2024 to July 2024, and what were the key variables in the simulation?",
+          "atomic_queries": [
+            "What was the simulated spread rate of dengue fever in Miami in April 2024?",
+            "What was the actual spread rate of dengue fever in Miami in April 2024?",
+            "What was the simulated spread rate of dengue fever in Miami in July 2024?",
+            "What was the actual spread rate of dengue fever in Miami in July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Public Health Interventions",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of mask mandates on the transmission rate of COVID-19 in Seattle from March 2024 to September 2024, and how did it compare to cities without mandates?",
+          "atomic_queries": [
+            "What was the transmission rate of COVID-19 in Seattle in March 2024 with mask mandates?",
+            "What was the transmission rate of COVID-19 in Seattle in September 2024 with mask mandates?",
+            "What was the transmission rate of COVID-19 in a city without mask mandates in March 2024?",
+            "What was the transmission rate of COVID-19 in a city without mask mandates in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How effective were social distancing measures in reducing the spread of the flu in Boston from May 2024 to August 2024, and what was the percentage decrease in cases?",
+          "atomic_queries": [
+            "What was the number of flu cases in Boston in May 2024 with social distancing measures?",
+            "What was the number of flu cases in Boston in August 2024 with social distancing measures?",
+            "What was the number of flu cases in Boston in May 2024 without social distancing measures?",
+            "What was the number of flu cases in Boston in August 2024 without social distancing measures?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Healthcare Resource Allocation",
+      "Queries": [
+        {
+          "decomposable_query": "What was the utilization rate of ICU beds for COVID-19 patients in New Jersey from March 2024 to September 2024, and how did it affect non-COVID-19 patients?",
+          "atomic_queries": [
+            "What was the ICU bed utilization rate for COVID-19 patients in New Jersey in March 2024?",
+            "What was the ICU bed utilization rate for COVID-19 patients in New Jersey in September 2024?",
+            "What was the ICU bed availability for non-COVID-19 patients in New Jersey in March 2024?",
+            "What was the ICU bed availability for non-COVID-19 patients in New Jersey in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the allocation of ventilators in Texas hospitals change from April 2024 to July 2024, and what was the impact on patient outcomes?",
+          "atomic_queries": [
+            "What was the number of ventilators allocated to COVID-19 patients in Texas hospitals in April 2024?",
+            "What was the number of ventilators allocated to COVID-19 patients in Texas hospitals in July 2024?",
+            "What was the patient outcome for those on ventilators in Texas hospitals in April 2024?",
+            "What was the patient outcome for those on ventilators in Texas hospitals in July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Longitudinal Studies on Disease Progression",
+      "Queries": [
+        {
+          "decomposable_query": "What were the long-term effects of COVID-19 on lung function in patients from New York City who recovered between March 2024 and September 2024?",
+          "atomic_queries": [
+            "What was the average lung function of COVID-19 patients in New York City before infection?",
+            "What was the average lung function of COVID-19 patients in New York City immediately after recovery?",
+            "What was the average lung function of COVID-19 patients in New York City six months after recovery?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the progression of diabetes in patients from Los Angeles change from March 2024 to September 2024, and what were the contributing factors?",
+          "atomic_queries": [
+            "What was the average blood sugar level of diabetes patients in Los Angeles in March 2024?",
+            "What was the average blood sugar level of diabetes patients in Los Angeles in September 2024?",
+            "What were the main lifestyle changes reported by diabetes patients in Los Angeles between March 2024 and September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Comparative Analysis of Disease Outbreaks",
+      "Queries": [
+        {
+          "decomposable_query": "How did the outbreak of norovirus in San Francisco from March 2024 to September 2024 compare to the outbreak in San Diego in terms of infection rates and recovery times?",
+          "atomic_queries": [
+            "What was the infection rate of norovirus in San Francisco in March 2024?",
+            "What was the infection rate of norovirus in San Francisco in September 2024?",
+            "What was the infection rate of norovirus in San Diego in March 2024?",
+            "What was the infection rate of norovirus in San Diego in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What were the differences in the spread of Zika virus in Miami compared to Houston from April 2024 to July 2024, and what factors influenced these differences?",
+          "atomic_queries": [
+            "What was the spread rate of Zika virus in Miami in April 2024?",
+            "What was the spread rate of Zika virus in Miami in July 2024?",
+            "What was the spread rate of Zika virus in Houston in April 2024?",
+            "What was the spread rate of Zika virus in Houston in July 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Predictive Modeling of Future Outbreaks",
+      "Queries": [
+        {
+          "decomposable_query": "What are the predicted hotspots for the next influenza outbreak in the United States for the period of March 2024 to September 2024, and what factors are contributing to these predictions?",
+          "atomic_queries": [
+            "What are the predicted hotspots for influenza in the United States in March 2024?",
+            "What are the predicted hotspots for influenza in the United States in September 2024?",
+            "What factors are contributing to the prediction of influenza hotspots in the United States for 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How accurate were the predictions for the spread of malaria in Africa from March 2024 to September 2024, and what were the key variables in the predictive model?",
+          "atomic_queries": [
+            "What were the predicted spread rates of malaria in Africa in March 2024?",
+            "What were the actual spread rates of malaria in Africa in March 2024?",
+            "What were the predicted spread rates of malaria in Africa in September 2024?",
+            "What were the actual spread rates of malaria in Africa in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Socioeconomic Impact of Epidemics",
+      "Queries": [
+        {
+          "decomposable_query": "What was the economic impact of the COVID-19 pandemic on small businesses in Chicago from March 2024 to September 2024, and how did it compare to the previous year?",
+          "atomic_queries": [
+            "What was the revenue of small businesses in Chicago in March 2024?",
+            "What was the revenue of small businesses in Chicago in September 2024?",
+            "What was the revenue of small businesses in Chicago in March 2023?",
+            "What was the revenue of small businesses in Chicago in September 2023?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the outbreak of dengue fever affect tourism in Hawaii from April 2024 to July 2024, and what were the long-term implications?",
+          "atomic_queries": [
+            "What was the number of tourists visiting Hawaii in April 2024?",
+            "What was the number of tourists visiting Hawaii in July 2024?",
+            "What was the number of tourists visiting Hawaii in April 2023?",
+            "What was the number of tourists visiting Hawaii in July 2023?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Agricultural Yield Prediction": [
+    {
+      "subtopic": "Impact of Climate Change on Crop Yields",
+      "Queries": [
+        {
+          "decomposable_query": "How did the average temperature and rainfall in the Midwest affect corn yields from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average temperature in the Midwest from March 2024 to September 2024?",
+            "What was the total rainfall in the Midwest from March 2024 to September 2024?",
+            "What were the corn yields in the Midwest in March 2024?",
+            "What were the corn yields in the Midwest in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What is the correlation between temperature fluctuations and wheat yield variability in the Great Plains during the specified period?",
+          "atomic_queries": [
+            "What were the temperature fluctuations in the Great Plains from March 2024 to September 2024?",
+            "What was the wheat yield in the Great Plains in March 2024?",
+            "What was the wheat yield in the Great Plains in September 2024?",
+            "How do temperature fluctuations correlate with wheat yield variability?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Technological Advancements in Precision Agriculture",
+      "Queries": [
+        {
+          "decomposable_query": "How did the adoption of drone technology impact soybean yields in Iowa from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What percentage of farms in Iowa adopted drone technology by March 2024?",
+            "What was the average soybean yield in Iowa in March 2024?",
+            "What was the average soybean yield in Iowa in September 2024?",
+            "How did drone technology specifically impact soybean yields?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of AI-based irrigation systems on rice yields in California during the specified period?",
+          "atomic_queries": [
+            "How many farms in California used AI-based irrigation systems by March 2024?",
+            "What was the rice yield in California in March 2024?",
+            "What was the rice yield in California in September 2024?",
+            "What improvements in rice yields are attributed to AI-based irrigation systems?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Economic Factors Influencing Crop Production",
+      "Queries": [
+        {
+          "decomposable_query": "How did changes in fertilizer prices affect wheat production costs and yields in Kansas from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the fertilizer prices in Kansas in March 2024?",
+            "What were the fertilizer prices in Kansas in September 2024?",
+            "What were the wheat production costs in Kansas in March 2024?",
+            "What were the wheat yields in Kansas in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of labor shortages on corn harvesting efficiency in Nebraska during the specified period?",
+          "atomic_queries": [
+            "What was the extent of labor shortages in Nebraska from March 2024 to September 2024?",
+            "What was the corn harvesting efficiency in Nebraska in March 2024?",
+            "What was the corn harvesting efficiency in Nebraska in September 2024?",
+            "How did labor shortages specifically impact corn harvesting efficiency?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Pest and Disease Management Strategies",
+      "Queries": [
+        {
+          "decomposable_query": "How effective were integrated pest management strategies in reducing pest-related losses in cotton fields in Texas from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What integrated pest management strategies were implemented in Texas cotton fields by March 2024?",
+            "What were the pest-related losses in Texas cotton fields in March 2024?",
+            "What were the pest-related losses in Texas cotton fields in September 2024?",
+            "How effective were these strategies in reducing pest-related losses?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of fungal diseases on rice yields in Arkansas during the specified period, and how were they managed?",
+          "atomic_queries": [
+            "What types of fungal diseases affected rice in Arkansas from March 2024 to September 2024?",
+            "What were the rice yields in Arkansas in March 2024?",
+            "What were the rice yields in Arkansas in September 2024?",
+            "What management strategies were used to combat these fungal diseases?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Soil Health and Fertility Management",
+      "Queries": [
+        {
+          "decomposable_query": "How did soil pH levels influence soybean yields in Illinois from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the soil pH levels in Illinois soybean fields in March 2024?",
+            "What were the soil pH levels in Illinois soybean fields in September 2024?",
+            "What were the soybean yields in Illinois in March 2024?",
+            "What were the soybean yields in Illinois in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of organic matter content on corn yield variability in Ohio during the specified period?",
+          "atomic_queries": [
+            "What was the organic matter content in Ohio corn fields in March 2024?",
+            "What was the organic matter content in Ohio corn fields in September 2024?",
+            "What was the corn yield variability in Ohio in March 2024?",
+            "What was the corn yield variability in Ohio in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Water Resource Management in Agriculture",
+      "Queries": [
+        {
+          "decomposable_query": "How did water conservation practices affect rice yields in Louisiana from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What water conservation practices were implemented in Louisiana rice fields by March 2024?",
+            "What were the rice yields in Louisiana in March 2024?",
+            "What were the rice yields in Louisiana in September 2024?",
+            "How did these practices specifically impact rice yields?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of drought conditions on wheat production in Oklahoma during the specified period?",
+          "atomic_queries": [
+            "What were the drought conditions in Oklahoma from March 2024 to September 2024?",
+            "What was the wheat production in Oklahoma in March 2024?",
+            "What was the wheat production in Oklahoma in September 2024?",
+            "How did drought conditions specifically impact wheat production?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Genetic Modification and Crop Resilience",
+      "Queries": [
+        {
+          "decomposable_query": "How did genetically modified corn varieties perform in terms of yield and pest resistance in Iowa from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What genetically modified corn varieties were planted in Iowa by March 2024?",
+            "What were the corn yields for these varieties in March 2024?",
+            "What were the corn yields for these varieties in September 2024?",
+            "How did these varieties perform in terms of pest resistance?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of drought-resistant wheat varieties on yield stability in Kansas during the specified period?",
+          "atomic_queries": [
+            "What drought-resistant wheat varieties were planted in Kansas by March 2024?",
+            "What was the yield stability of these varieties in March 2024?",
+            "What was the yield stability of these varieties in September 2024?",
+            "How did these varieties perform under drought conditions?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Market Dynamics and Crop Pricing",
+      "Queries": [
+        {
+          "decomposable_query": "How did fluctuations in global grain prices affect soybean pricing and export volumes from the US from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What were the global grain price trends from March 2024 to September 2024?",
+            "What was the soybean pricing in the US in March 2024?",
+            "What was the soybean pricing in the US in September 2024?",
+            "What were the soybean export volumes from the US in March 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the effect of domestic demand changes on corn prices in the Midwest during the specified period?",
+          "atomic_queries": [
+            "What were the domestic demand changes for corn in the Midwest from March 2024 to September 2024?",
+            "What were the corn prices in the Midwest in March 2024?",
+            "What were the corn prices in the Midwest in September 2024?",
+            "How did domestic demand changes specifically impact corn prices?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Policy and Regulatory Impacts on Agriculture",
+      "Queries": [
+        {
+          "decomposable_query": "How did new agricultural subsidies introduced in April 2024 affect wheat production in North Dakota from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What new agricultural subsidies were introduced in North Dakota in April 2024?",
+            "What was the wheat production in North Dakota in March 2024?",
+            "What was the wheat production in North Dakota in September 2024?",
+            "How did these subsidies specifically impact wheat production?"
+          ]
+        },
+        {
+          "decomposable_query": "What was the impact of environmental regulations on pesticide usage in California vineyards during the specified period?",
+          "atomic_queries": [
+            "What environmental regulations were implemented in California vineyards by March 2024?",
+            "What was the pesticide usage in California vineyards in March 2024?",
+            "What was the pesticide usage in California vineyards in September 2024?",
+            "How did these regulations specifically impact pesticide usage?"
+          ]
+        }
+      ]
+    }
+  ],
+  "Educational Outcome Evaluation": [
+    {
+      "subtopic": "Impact of Class Size on Student Performance",
+      "Queries": [
+        {
+          "decomposable_query": "How did class size affect the average math scores of 8th-grade students in public schools from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average class size for 8th-grade students in public schools in March 2024?",
+            "What was the average math score for 8th-grade students in public schools in March 2024?",
+            "What was the average class size for 8th-grade students in public schools in September 2024?",
+            "What was the average math score for 8th-grade students in public schools in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "What correlation exists between class size and student performance in science subjects for high school students during the period from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average class size for high school science classes in March 2024?",
+            "What was the average student performance in science subjects in March 2024?",
+            "What was the average class size for high school science classes in September 2024?",
+            "What was the average student performance in science subjects in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Effectiveness of Online Learning Platforms",
+      "Queries": [
+        {
+          "decomposable_query": "What was the improvement in student test scores for those using online learning platforms compared to traditional methods from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average test score for students using online learning platforms in March 2024?",
+            "What was the average test score for students using traditional learning methods in March 2024?",
+            "What was the average test score for students using online learning platforms in September 2024?",
+            "What was the average test score for students using traditional learning methods in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the usage of online learning platforms impact student engagement levels in high schools from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average engagement level of students using online learning platforms in March 2024?",
+            "What was the average engagement level of students using traditional learning methods in March 2024?",
+            "What was the average engagement level of students using online learning platforms in September 2024?",
+            "What was the average engagement level of students using traditional learning methods in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Influence of Extracurricular Activities on Academic Performance",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of participation in sports on the academic performance of middle school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average academic performance of middle school students participating in sports in March 2024?",
+            "What was the average academic performance of middle school students not participating in sports in March 2024?",
+            "What was the average academic performance of middle school students participating in sports in September 2024?",
+            "What was the average academic performance of middle school students not participating in sports in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did involvement in music programs affect the math scores of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average math score of high school students involved in music programs in March 2024?",
+            "What was the average math score of high school students not involved in music programs in March 2024?",
+            "What was the average math score of high school students involved in music programs in September 2024?",
+            "What was the average math score of high school students not involved in music programs in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Role of Parental Involvement in Student Success",
+      "Queries": [
+        {
+          "decomposable_query": "What was the relationship between parental involvement and student GPA in elementary schools from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average GPA of students with high parental involvement in March 2024?",
+            "What was the average GPA of students with low parental involvement in March 2024?",
+            "What was the average GPA of students with high parental involvement in September 2024?",
+            "What was the average GPA of students with low parental involvement in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did parental involvement influence the attendance rates of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the attendance rate of high school students with high parental involvement in March 2024?",
+            "What was the attendance rate of high school students with low parental involvement in March 2024?",
+            "What was the attendance rate of high school students with high parental involvement in September 2024?",
+            "What was the attendance rate of high school students with low parental involvement in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Socioeconomic Status on Educational Achievement",
+      "Queries": [
+        {
+          "decomposable_query": "What was the effect of socioeconomic status on the literacy rates of elementary students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the literacy rate of elementary students from high socioeconomic backgrounds in March 2024?",
+            "What was the literacy rate of elementary students from low socioeconomic backgrounds in March 2024?",
+            "What was the literacy rate of elementary students from high socioeconomic backgrounds in September 2024?",
+            "What was the literacy rate of elementary students from low socioeconomic backgrounds in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did socioeconomic status influence the dropout rates of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the dropout rate of high school students from high socioeconomic backgrounds in March 2024?",
+            "What was the dropout rate of high school students from low socioeconomic backgrounds in March 2024?",
+            "What was the dropout rate of high school students from high socioeconomic backgrounds in September 2024?",
+            "What was the dropout rate of high school students from low socioeconomic backgrounds in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Effect of Teacher Experience on Student Learning",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of teacher experience on the reading comprehension scores of middle school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average reading comprehension score of students taught by experienced teachers in March 2024?",
+            "What was the average reading comprehension score of students taught by inexperienced teachers in March 2024?",
+            "What was the average reading comprehension score of students taught by experienced teachers in September 2024?",
+            "What was the average reading comprehension score of students taught by inexperienced teachers in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did teacher experience affect the science test scores of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average science test score of students taught by experienced teachers in March 2024?",
+            "What was the average science test score of students taught by inexperienced teachers in March 2024?",
+            "What was the average science test score of students taught by experienced teachers in September 2024?",
+            "What was the average science test score of students taught by inexperienced teachers in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Influence of School Infrastructure on Learning Outcomes",
+      "Queries": [
+        {
+          "decomposable_query": "What was the effect of improved school infrastructure on the math scores of elementary students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average math score of elementary students in schools with improved infrastructure in March 2024?",
+            "What was the average math score of elementary students in schools without improved infrastructure in March 2024?",
+            "What was the average math score of elementary students in schools with improved infrastructure in September 2024?",
+            "What was the average math score of elementary students in schools without improved infrastructure in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did school infrastructure improvements impact the attendance rates of middle school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the attendance rate of middle school students in schools with improved infrastructure in March 2024?",
+            "What was the attendance rate of middle school students in schools without improved infrastructure in March 2024?",
+            "What was the attendance rate of middle school students in schools with improved infrastructure in September 2024?",
+            "What was the attendance rate of middle school students in schools without improved infrastructure in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Impact of Curriculum Changes on Student Performance",
+      "Queries": [
+        {
+          "decomposable_query": "What was the impact of the new math curriculum on the test scores of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average math test score of high school students under the old curriculum in March 2024?",
+            "What was the average math test score of high school students under the new curriculum in March 2024?",
+            "What was the average math test score of high school students under the old curriculum in September 2024?",
+            "What was the average math test score of high school students under the new curriculum in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did changes in the science curriculum affect the engagement levels of middle school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the engagement level of middle school students under the old science curriculum in March 2024?",
+            "What was the engagement level of middle school students under the new science curriculum in March 2024?",
+            "What was the engagement level of middle school students under the old science curriculum in September 2024?",
+            "What was the engagement level of middle school students under the new science curriculum in September 2024?"
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Role of Technology in Enhancing Learning",
+      "Queries": [
+        {
+          "decomposable_query": "What was the effect of integrating tablets into classrooms on the reading scores of elementary students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average reading score of elementary students using tablets in March 2024?",
+            "What was the average reading score of elementary students not using tablets in March 2024?",
+            "What was the average reading score of elementary students using tablets in September 2024?",
+            "What was the average reading score of elementary students not using tablets in September 2024?"
+          ]
+        },
+        {
+          "decomposable_query": "How did the use of virtual reality tools in science classes affect the test scores of high school students from March 2024 to September 2024?",
+          "atomic_queries": [
+            "What was the average science test score of high school students using virtual reality tools in March 2024?",
+            "What was the average science test score of high school students not using virtual reality tools in March 2024?",
+            "What was the average science test score of high school students using virtual reality tools in September 2024?",
+            "What was the average science test score of high school students not using virtual reality tools in September 2024?"
           ]
         }
       ]
