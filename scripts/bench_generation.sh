@@ -79,7 +79,7 @@ do
       --llm_batch_size 10 \
       --summarized_documents_file "$SUMMARIZED_DOCUMENTS_FILE" \
       --output_file "$OUTPUT_FILE" \
-      --generate_questions_flag
+      # --generate_questions_flag
 
 
   GENERATED_QUESTIONS_FILE="./outputs/data/${TIME}/generated_questions_${TASK}.json"
@@ -91,7 +91,7 @@ do
       --output_file "$HIGH_QUALITY_QUESTIONS_FILE" \
       --model_name gpt-4o \
       --task_name "$TASK" \
-      --quality_control_flag
+      # --quality_control_flag
 
 done
 

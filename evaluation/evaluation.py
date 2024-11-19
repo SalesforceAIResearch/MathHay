@@ -329,6 +329,8 @@ def evaluation(args):
     os.makedirs(args.output_dir, exist_ok=True)
     results = []
 
+    # print ("total data:", len(data_rows))
+    # assert 1==0
     
     consistent_count = 0
     total_count = 0

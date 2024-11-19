@@ -116,42 +116,41 @@ def reorganization(dir_):
         topic_count_dict = {}
         for topic in topics:
             topic_count_dict[topic] = 0
-        print (f"{name} : {len(data_rows)}")
-        if data_rows == []:
-            continue
+    #     if data_rows == []:
+    #         continue
 
-        to_verify_data_rows = []
-        unverified_data_rows = []
-        data_rows_full  = []
-        for row in data_rows:
-            rtopic = row['Topic']
-            if topic_count_dict[rtopic] >=2 and topic_count_dict[rtopic] <12:
-                unverified_data_rows.append(row)
-                data_rows_full.append(row)
-            elif topic_count_dict[rtopic] <2:
-                to_verify_data_rows.append(row)
-                data_rows_full.append(row)
-            else:
-                pass
-            topic_count_dict[rtopic]+=1
-        print (f"topic_count_dict: {topic_count_dict}")
+    #     to_verify_data_rows = []
+    #     unverified_data_rows = []
+        data_rows_full  = data_rows[:]
+        # for row in data_rows:
+    #         rtopic = row['Topic']
+    #         if topic_count_dict[rtopic] >=2 and topic_count_dict[rtopic] <12:
+    #             unverified_data_rows.append(row)
+    #             data_rows_full.append(row)
+    #         elif topic_count_dict[rtopic] <2:
+    #             to_verify_data_rows.append(row)
+    #             data_rows_full.append(row)
+    #         else:
+    #             pass
+    #         topic_count_dict[rtopic]+=1
+        # print (f"topic_count_dict: {topic_count_dict}")
 
-        
-        print (f"{name} data_rows_full: {len(data_rows_full)}, unverified_data_rows: {len(unverified_data_rows)}, to_verify_data_rows: {len(to_verify_data_rows)},")
+        print (f"{name} : {len(data_rows_full)}")
+        # print (f"{name} data_rows_full: {len(data_rows_full)}, unverified_data_rows: {len(unverified_data_rows)}, to_verify_data_rows: {len(to_verify_data_rows)},")
         sum_file_name = os.path.join(dir_, f'full_haystack_question_{name}.json')
         save_json_file(sum_file_name, data_rows_full)
         logging.info(f"{sum_file_name} saving done.")
         
-        to_verify_sum_file_name = os.path.join(dir_, f'to_verify_haystack_question_{name}.json')
-        print (f"{to_verify_sum_file_name} : {len(to_verify_data_rows)}")
-        save_json_file(to_verify_sum_file_name, to_verify_data_rows)
-        logging.info(f"{to_verify_sum_file_name} saving done.")
+    #     to_verify_sum_file_name = os.path.join(dir_, f'to_verify_haystack_question_{name}.json')
+    #     print (f"{to_verify_sum_file_name} : {len(to_verify_data_rows)}")
+    #     save_json_file(to_verify_sum_file_name, to_verify_data_rows)
+    #     logging.info(f"{to_verify_sum_file_name} saving done.")
 
-        unerified_sum_file_name = os.path.join(dir_, f'unverified_haystack_question_{name}.json')
-        save_json_file(unerified_sum_file_name, unverified_data_rows)
-        logging.info(f"{unerified_sum_file_name} saving done.")
+    #     unerified_sum_file_name = os.path.join(dir_, f'unverified_haystack_question_{name}.json')
+    #     save_json_file(unerified_sum_file_name, unverified_data_rows)
+    #     logging.info(f"{unerified_sum_file_name} saving done.")
 
-    print ("total number of data:", count)
+    # print ("total number of data:", count)
 
 
 if __name__ == "__main__":
