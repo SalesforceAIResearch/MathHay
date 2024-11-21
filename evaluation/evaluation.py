@@ -494,7 +494,9 @@ def evaluation(args):
             "llm_annotate_reasoning": row["Task"]["solution"],
             "llm_judge": llm_verification,
             "pred_reasoning": reasoning,
-            "judge_reasoning": ver_reasoning
+            "judge_reasoning": ver_reasoning,
+            "Task": row["Task"],
+            "Documents": row['Documents'],
         }
         results.append(result)
 

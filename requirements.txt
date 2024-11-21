@@ -9,3 +9,4 @@ nltk
 tiktoken
 google
 boto3
+openpyxl

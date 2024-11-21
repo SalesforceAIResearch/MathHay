@@ -47,7 +47,8 @@ def reorganization(dir_):
             '3ssd': 'ThreeStepSingleDocumentTask',
             'ss2d': 'SingleStepTwoDocumentTask',
             '2s2d': 'TwoStepTwoDocumentTask',
-            '3s2d': 'ThreeStepTwoDocumentTask'
+            '3s2d': 'ThreeStepTwoDocumentTask',
+            '3s3d': 'ThreeStepThreeDocumentTask'
             }
     
     data_need ={
@@ -57,6 +58,7 @@ def reorganization(dir_):
         'ss2d': 25,
         '2s2d': 25,
         '3s2d': 25,
+        '3s3d': 25,
     }
     count = 0
     for task_name in data_need:
@@ -71,7 +73,7 @@ def reorganization(dir_):
         print (data_stat_file)
         print (oresult_file)
 
-        data_stat_rows = load_json_file(selected_file)
+        # data_stat_rows = load_json_file(selected_file)
         ### 
         # each of data_stat_rows include dict_keys(['Topic', 'Subtopic', 'Query', 'Document_ID', 'Documents', 'task_type', 'Task', 'Irrelevant_Documents_Indexs'])
         # in Task column, which include dict_keys(['relevant_quantity_cells_from_two_documents', 'question', 'solution', 'steps', 'answer', 'refined_flag', 'consistency'])
@@ -81,40 +83,71 @@ def reorganization(dir_):
         ###
         # each of data_result_rows include dict_keys(['index', 'relevant_documents', 'question', 'expected_answer', 'pred_answer', 'correct', 'llm_annotate_reasoning', 'llm_judge', 'pred_reasoning', 'judge_reasoning'])
         ### 
-        kept_data_stat_rows = []
-        for data_stat_row in data_stat_rows:
-            if data_stat_row["Task"]["consistency"] == 1:
-                kept_data_stat_rows.append(data_stat_row)
-        print (len(kept_data_stat_rows), len(data_result_rows))
+        # kept_data_stat_rows = []
+        # for data_stat_row in data_stat_rows:
+        #     if data_stat_row["Task"]["consistency"] == 1:
+        #         kept_data_stat_rows.append(data_stat_row)
+        print (len(data_result_rows))
 
         # assert 1==0
         
-        # combined_rows = []
-        # # Merge data for CSV generation
-        # for stat_row, result_row in zip(data_stat_rows, data_result_rows):
-        #     combined_row = {
-        #         "document": stat_row['Documents'],
-        #         "generated_question": stat_row['Task']['question'],
-        #         "generated_solution": stat_row['Task']['solution'],
-        #         "reasoning_steps_from_python_solution": stat_row['Task']['steps'],
-        #         "answer": stat_row['Task']['answer'],
-        #         "predicted_answer_by_GPT-4o": result_row['pred_answer'],
-        #         "GPT-4o_evaluation_for_prediced_answer": result_row['llm_judge'],
-        #         "relevance_of_question_annotation (1:weak|2:medium|3:strong)": "",
-        #         "is_question_natural_annotation (1:weak|2:medium|3:strong)": "",
-        #         "consistency_between_question_and_solution_annotation (Yes|No)": "",
-        #         "how_many_steps_annotation (1|2|3)": "",
-        #         "whether_question_can_have_multiple_answers (Yes|No)": "",
-        #         "human_evaluation_for_prediced_answer (Yes|No)": ""
-        #     }
-        #     combined_rows.append(combined_row)
+        
+        combined_rows = []
+        # Merge data for CSV generation
+        need_c = data_need[task_name]
+        # if task_name == "3s3d":
+        #     need_c = 100
+        count = 0
+        non_c = 0
+        for result_row in data_result_rows[:100]:
+            if task_name in ["ss2d", "2s2d", "3s2d"]:
+                relevant_quantity_cells = result_row['Task']["relevant_quantity_cells_from_two_documents"]
+            elif task_name in ["sssd", "2ssd", "3ssd"]:
+                relevant_quantity_cells = result_row['Task']["relevant_quantity_cells"]
+            elif task_name in ["3s3d"]:
+                relevant_quantity_cells = result_row['Task']["relevant_quantity_cells_from_three_documents"]
+            if task_name in ["3s2d", "3ssd", "3s3d"]:
+                if "Step 3" not in  result_row['Task']['solution']:
+                    continue
+            if task_name in ["2s2d", "2ssd"]:
+                if "Step 2" not in  result_row['Task']['solution']:
+                    continue
+                if "Step 3" in  result_row['Task']['solution']:
+                        continue
+                    # continue
+            combined_row = {
+                "document": result_row['Documents'],
+                "relevant_quantity_cells": relevant_quantity_cells,
+                "generated_question": result_row['Task']['question'],
+                "generated_solution": result_row['Task']['solution'],
+                "reasoning_steps_from_python_solution": result_row['Task']['steps'],
+                "answer": result_row['expected_answer'],
+                "predicted_solution_by_GPT-4o": result_row['pred_reasoning'],
+                "predicted_answer_by_GPT-4o": result_row['pred_answer'],
+                # "GPT-4o_evaluation_for_prediced_answer": result_row['llm_judge'],
+                "llm_judge": result_row['correct'],
+                "relevance_of_question_annotation (1:weak|2:medium|3:strong)": "",
+                "is_question_natural_annotation (1:weak|2:medium|3:strong)": "",
+                "consistency_between_question_and_solution_annotation (Yes|No)": "",
+                "how_many_steps_annotation (1|2|3)": "",
+                "whether_question_can_have_multiple_answers (Yes|No)": "",
+                "human_evaluation_for_prediced_answer (Yes|No)": ""
+            }
+            combined_rows.append(combined_row)
+            count += 1
+            if count>=25:
+                break
+        print (task_name, count)
     
-        # # Generate CSV
-        # csv_file_path = os.path.join("./analysis/annotation_files/", "human_evaluation_annotations_"+task_name+".csv")
-        # df = pd.DataFrame(combined_rows)
+        # Generate CSV
+        csv_file_path = os.path.join("./analysis/annotation_files/", "human_evaluation_annotations_"+task_name+".csv")
+        xlsx_file_path = os.path.join("./analysis/annotation_files/", "human_evaluation_annotations_"+task_name+".xlsx")
+        df = pd.DataFrame(combined_rows)
         # df.to_csv(csv_file_path, index=False)
+        df.to_excel(xlsx_file_path, index=False, engine='openpyxl')
 
-        # logger.info(f"CSV file generated at: {csv_file_path}\n")
+
+        logger.info(f"XLSX file generated at: {xlsx_file_path}\n")
 
 
 if __name__ == "__main__":
